@@ -11,7 +11,7 @@ Procedure
 1. Cut stem at the base of petiole under water. For each genotype and temperature treatment there should be at least three tubes as replicates.
 Note: It is important to have leaves at the same leaf number and stage from different plants as the tolerance is dependent on leaf order and developmental stage (Takagi et al, 2003)
 2. Pat dry before putting leaflets into test tubes.
-3. Put leaflets in 50 mL test tube and add 25 mL of distilled water until submerged.
+3. Put leaflets in 50 mL test tube   [Note, old isntructions say: and add 25 mL of distilled water until submerged, but Mitra did these dry]  
 4. Incubate the leaflets for thirty minutes to an hour in 4°C refrigerator before starting trial to allow temperature equilibrium in the test tubes.
 5. Decrease the temperature of the water bath to -12 °C at a rate of 2 °C per half hour. The bath should begin at 4 °C. When the temperature reaches -1 °C, add tiny pieces of ice to each tube. Remove ice from tray and cut into three even pieces.
 6. Begin removing the tubes from the water bath at intervals of 2 °C at -2 °C.  Make sure cap is always immediately replaced after removing from test tubes, and then place samples in 4 °C refrigerator to gradually thaw overnight.
