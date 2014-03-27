@@ -3,7 +3,7 @@
 SRCDIR=..
 DESTDIR=../html
 
-mv $SRCDIR/*.md DESTDIR
+cp $SRCDIR/*.md $DESTDIR
 
 for i in $DESTDIR/*.md; do
     grip $i --export
