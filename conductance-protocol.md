@@ -1,9 +1,12 @@
-#+TITLE: Conductance and Vulnerability Curve Protocol
+Conductance and Vulnerability Curve Protocol
+============================================
 
-:Authors: Dylan Schwilk, Tailor Brown, Josh Willms
+Dylan Schwilk, Tailor Brown, Josh Willms. See also Dr. Anna Jacobsen's good webpage of protocols.  We learned our hydraulics from Dr. Jacobsen and Dr. Pratt largely.
 
-* Overview and materials
-** Overview
+Overview and materials
+----------------------
+
+### Overview ###
 "Conductance" is a property of a conductor, in our case, the xylem of a stem segment.  We are usually interested in "Conductivity," K, which is the conducting proporty of a material (eg the xyelm tissue of a particular tree species).  We most often report sapwood specific conductivity, K_s, which is the conductance of a stem segment X the length of the segment / the sapwood area of the segment.  
 
 Conductance influences rate of water flow through a stem segment:
@@ -22,18 +25,21 @@ Conductance dorps as xelem vessels embolize.  The pattern of conductance loss as
 2. TODO
 3. Using the centrifuge method (what we usually do)
 
-All calculations are provided as R code in [[file:hydro.R][hydro.R]]
+All calculations are provided as R code in [hydro.R](https://github.com/schwilklab/skyisland-traits-distro/blob/master/traits/conductance/hydro.R)
 
 
-* Stem collection and preparation
-** Collection
+Stem collection and preparation
+-------------------------------
+
+### Collection ###
 
 Label the collection by collection date, site, tree tag, and species (using the USDA species codes)
 
 TODO
+
 Collect under water (degassed KCl if available)
 
-** Stem preparation and measurements
+### Stem preparation and measurements ###
 
 NOTE: Keep stem ends under water (dilute KCl at all times). Transfer cut stems in completely solution-filled ziplock bags to avoid any air contnct with cut ends.
 
@@ -44,8 +50,11 @@ NOTE: Keep stem ends under water (dilute KCl at all times). Transfer cut stems i
 
 
 
-* Native conductance and flushing
-** Native conductance
+Native conductance and flushing
+-------------------------------
+
+### Native conductance ###
+
 In order to produce a vulnerability curve, we must measure conductances under a range of water potentials.  We can create these water pontetials by spinning a stem in a centrifuge, or we can allow natural drought condtions to create them.  If we harvest a stem predawn and under water, and if we ahve recent middy and predawn water potentials measured on that plant, then we can create a "native conductance" point on a vulnerability curve.
 
 ** Flushing
@@ -53,13 +62,17 @@ To remove all native embolisms, we flush the stem under a pressure head of about
 
 We use a "captive air tank" to apply the water pressure.  The tank contains a rubber bladder which we fill with our KCl solution.  A Schrader valve allows us to attach a regulated air source (we use a nitrogen tank with a regulator turned down to the correct pressure)
 
-* Cleaning and preparing conductance measurement and flushing system
-** Cleaning
+Cleaning and preparing conductance measurement and flushing system
+------------------------------------------------------------------
+
+### Cleaning ###
+
 Clean every X days with dilute bleach (X per X).  Never allow bleach solution to touch the filter.
 
 Flush system with distilled water before adding bleach solution because bleach contacting KCl will cause a precipitate
 
-** Solution and prep. 
+### Solution and prep. ###
+
 If possible, only degassed KCl solution sould touch the stem.  This is especially importnat for flsuhing and measuremnt (both times when solution is pushed through the stem.
 
 X mm KCL
@@ -69,15 +82,17 @@ Degassing:  Mix the KCl in a vacuum-ready carboy. Use a stir rod and magnetic st
 Anytime the carboy is opened, pull vacuum and degas the solution
 
 
-* Conductance measurements
+Conductance measurements
+------------------------
+
 We push a dilute KCl solution through the stem at a very low pressure created by a height differential between the water level in the beaker on the balance and the water level in the IV bag held about 70cm higher.  Two "sight tubes" allow us to acurately read the height at these two locations by opening valves to equalize the pressure between the sight tube and either the beaker ("balance height") or the IV bag ("head height").
 
-** Pre-measurement prep
+### Pre-measurement prep ###
 
 1. [ ] Start with clean system (see cleaning, above).
 2. [ ] Prepare degassed KCl solution.  Have some solution always ready as backup.  [TODO]
 
-** Conductance measurement steps
+### Conductance measurement steps ###
 
 1. [ ] Start a new data sheet and record the tree tag, species code, stem id, your name and the date. Record the stem length.  [[file:curve-sheet-for-entry.xls][Vulnerability curve data sheets]]
 2. [ ] Clear the conductance tubing of all bubbles
@@ -92,8 +107,10 @@ We push a dilute KCl solution through the stem at a very low pressure created by
 11. [ ] Turn valves to off position and remove the stem (keeping it under water)
 
 
-* Centrifuge method of inducing embolism/cavitation
-** Applying xylem tension via centrifuge
+Centrifuge method of inducing embolism/cavitation
+-------------------------------------------------
+
+### Applying xylem tension via centrifuge ###
 
 We can spin a stem in a custom-made centrifuge rotor (for a Sorvall centrifuge) in order to create tension in th xylem.  The stem ends must be kept under water.  L-shaped plastic wells filled with degassed KCl allow the solution to move up to cover the stem end as we spin.  It is impossible to avoid some air exposure, so we use small make-up sponges in the wells to keep the end moist during the time while the stems are being placed in the rotor.
 
@@ -103,13 +120,14 @@ mpa = -0.000001  * ( (RPM*2*pi / 60)^2 * r^2 * waterdensity) / 2 )
 
 This is the greatest tension created at the tips of the stem.  See [[file:hydro.R][hydro.R]]
 
-** "Fatigue correction"
+### "Fatigue correction" ###
+
 Some species such as oaks, will show conductance loss at by high water potentials --- higher than ever observed in nature.  This implies that flushing fills some vessels that are never filled in a living plant.  These have been termed "fatigued" vessels.  If we calculate percentloss conductivity based on a maximum conductivity measured just after flushing, then we would show losses that are not real.  To correct for this, we can spin at a very gentle tension (say -0.25 MPa), then count the subsequent conductance measurement as the "fatigue corrected" maximum conductance. 
 
 Alternatively, we can avoid flushing all together and collect stems under very hydrated natural conditions.
 
 
-** Vulnerability curve checklist
+### Vulnerability curve checklist ###
 1. [ ] Prepare stem (see )
 2. [ ] IF OBTAINING NATIVE POINT:
    Measure conductance (see above) and record
@@ -118,5 +136,4 @@ Alternatively, we can avoid flushing all together and collect stems under very h
 5. [ ] Spin stem at next RPM point and remeasure.  Do this until measure flow drops to near background
 
 [TODO]
-
 

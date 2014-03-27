@@ -1,9 +1,12 @@
-#+TITLE: Stem preparation and staining protocol
+Stem preparation and staining protocol
+======================================
 
 :Authors: Tailor Brown, Dylan Schwilk
+
 :Reference: Xylem staining protocol from TTU graduate student, Thiya Mukherjee.  Thiya uses this protocol to rpepare cotton xylem corss sections for anatomy work
 
-* Sample Preparation:
+Sample Preparation:
+-------------------
 
 1. Collect samples: Fix and preserve at 4 degrees
 2. Preparation:
@@ -14,10 +17,13 @@
 3. Wash out fixative under running water for a couple of minutes and dehydrate the sample in alcohol series 15, 35, 70, and 95% with 1-2 hours emersion in each. 
 4. Section
 
-* Staining:
-** Toluidine Blue for xylem characteristics
+Staining:
+-----------
+### Toluidine Blue for xylem characteristics ###
+
 Look this up.  70% solution reported for xylem anatomy work
-** Safranin and fast green stain:
+
+### Safranin and fast green stain ###
 
 1. Stain 1-12 hours in Safranin O (1% w/v in 70% ethanol)
 2. Wash in DI until no more dye is removed from sections
@@ -28,7 +34,7 @@ Look this up.  70% solution reported for xylem anatomy work
 7. Clear in xylene (100%) 2x
 8. Mount coverslip
 
-Note:
+#### Note: ####
 If safranin staining is in excess (red color seen in cellulose walls and cytoplasm) repeat steps 2-4 doubling the time for fast green and continue till step 7
 If the safranin staining is pale, start from step 1 and repeat steps
 If fast green staining is excess, dehydrate in 100% ethanol (step 5) and step 3 then step 4 for 10 seconds followed by step 5, 6, 7.
