@@ -1,13 +1,15 @@
 Conductance and Vulnerability Curve Protocol
 ============================================
 
-Dylan Schwilk, Tailor Brown, Josh Willms. See also Dr. Anna Jacobsen's good webpage of protocols.  We learned our hydraulics from Dr. Jacobsen and Dr. Pratt largely.
+Authors: Dylan Schwilk, Tailor Brown, Josh Willms.
+
+See also Dr. Anna Jacobsen's good webpage of research methods, http://www.csub.edu/~ajacobsen/Research_Methods.htm.  We learned our hydraulics from Dr. Davis, Dr. Jacobsen and Dr. Pratt largely.
 
 Overview and materials
 ----------------------
 
 ### Overview ###
-"Conductance" is a property of a conductor, in our case, the xylem of a stem segment.  We are usually interested in "Conductivity," K, which is the conducting proporty of a material (eg the xyelm tissue of a particular tree species).  We most often report sapwood specific conductivity, K_s, which is the conductance of a stem segment X the length of the segment / the sapwood area of the segment.  
+"Conductance" is a property of a conductor, in our case, the xylem of a stem segment.  We are usually interested in "Conductivity," K, which is the conducting property of a material (eg the xylecm tissue of a particular tree species).  We most often report sapwood specific conductivity, K_s, which is the conductance of a stem segment X the length of the segment / the sapwood area of the segment.  
 
 Conductance influences rate of water flow through a stem segment:
 
@@ -19,7 +21,7 @@ C = F/P
 
 Xylem vulnerability to drought
 
-Conductance dorps as xelem vessels embolize.  The pattern of conductance loss as a function of decreasing water potential is known as a vulnerability curve.  We can create such a curve in multiple ways:
+Conductance drops as xylem vessels embolize.  The pattern of conductance loss as a function of decreasing water potential is known as a vulnerability curve.  We can create such a curve in multiple ways:
 
 1. TODO
 2. TODO
@@ -31,17 +33,24 @@ All calculations are provided as R code in [hydro.R](https://github.com/schwilkl
 Stem collection and preparation
 -------------------------------
 
+### Materials ###
+
+- degassed water or degassed (XX mmol) KCL. Several gallons.
+- Large ziplocs for holding water to stem and for putting stems in. Use Ziploc brand "Big Bags XL" 60cm x 51cm.
+- sharp clippers
+- MORE?
+
 ### Collection ###
 
 Label the collection by collection date, site, tree tag, and species (using the USDA species codes)
 
-TODO
+[TODO]
 
 Collect under water (degassed KCl if available)
 
 ### Stem preparation and measurements ###
 
-NOTE: Keep stem ends under water (dilute KCl at all times). Transfer cut stems in completely solution-filled ziplock bags to avoid any air contnct with cut ends.
+NOTE: Keep stem ends under water (dilute KCl at all times). Transfer cut stems in completely solution-filled ziplock bags to avoid any air contact with cut ends.
 
 1. [ ] Cut the stem segment under water to ~13.5 cm long. Record actual length in stem file.
 2. [ ] Save all distal leaves and bag them together in a ziplock labeled with stem id, tree tag, species code and date
@@ -67,13 +76,13 @@ Cleaning and preparing conductance measurement and flushing system
 
 ### Cleaning ###
 
-Clean every X days with dilute bleach (X per X).  Never allow bleach solution to touch the filter.
+Clean every TODO:X days with dilute bleach (TODO: X per X).  Never allow bleach solution to touch the filter.
 
 Flush system with distilled water before adding bleach solution because bleach contacting KCl will cause a precipitate
 
 ### Solution and prep. ###
 
-If possible, only degassed KCl solution sould touch the stem.  This is especially importnat for flsuhing and measuremnt (both times when solution is pushed through the stem.
+If possible, only degassed KCl solution sould touch the stem.  This is especially important for flushing and measuremnt (both times when solution is pushed through the stem.
 
 X mm KCL
 
