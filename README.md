@@ -1,4 +1,4 @@
-Schwilk lab Protocols
+Schwilk Lab Protocols
 =====================
 
 Repository for field and lab protocols.
