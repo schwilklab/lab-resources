@@ -64,7 +64,7 @@ Native conductance and flushing
 
 ### Native conductance ###
 
-In order to produce a vulnerability curve, we must measure conductances under a range of water potentials.  We can create these water pontetials by spinning a stem in a centrifuge, or we can allow natural drought condtions to create them.  If we harvest a stem predawn and under water, and if we ahve recent middy and predawn water potentials measured on that plant, then we can create a "native conductance" point on a vulnerability curve.
+In order to produce a vulnerability curve, we must measure conductances under a range of water potentials.  We can create these water pontetials by spinning a stem in a centrifuge, or we can allow natural drought condtions to create them.  If we harvest a stem predawn and under water, and if we have recent middy and predawn water potentials measured on that plant, then we can create a "native conductance" point on a vulnerability curve.
 
 ** Flushing
 To remove all native embolisms, we flush the stem under a pressure head of about 75-100 KPa for 45 min. [CHECK?]
@@ -82,11 +82,11 @@ Flush system with distilled water before adding bleach solution because bleach c
 
 ### Solution and prep. ###
 
-If possible, only degassed KCl solution sould touch the stem.  This is especially important for flushing and measuremnt (both times when solution is pushed through the stem.
+If possible, only degassed KCl solution should touch the stem.  This is especially important for flushing and measurement (both times when solution is pushed through the stem.
 
 X mm KCL
-
-Degassing:  Mix the KCl in a vacuum-ready carboy. Use a stir rod and magnetic stir plate  to agitate the mxture while vacuum is applied.  Pull vacuum to approx -22"Hg and then disconnect and shut down vacuum pump (allow pump to run for 2 minutes pulling air and no vacuum to cool down before switchting off).  20 minutes of stiring under vacuum should be sufficient to degas.
+			
+Degassing:  Mix the KCl in a vacuum-ready carboy. Use a stir rod and magnetic stir plate  to agitate the mxture while vacuum is applied.  Pull vacuum to approx -22"Hg and then disconnect and shut down vacuum pump (allow pump to run for 2 minutes pulling air and no vacuum to cool down before switching off).  20 minutes of stirring under vacuum should be sufficient to degas.
 
 Anytime the carboy is opened, pull vacuum and degas the solution
 
