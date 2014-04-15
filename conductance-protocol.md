@@ -146,3 +146,20 @@ Alternatively, we can avoid flushing all together and collect stems under very h
 
 [TODO]
 
+###Calculation of Pipette Displacement###
+1. [ ] Take an initial weight measurement of a certain amount of water in the drain reservoir.
+2. [ ] Submerge a certain marked length of pipette into the water of the drain reservoir
+3. [ ] Take a final weight measurement after the certain length of pipette is submerged.
+4. [ ] Compute pipette displacement= (Wi-Wf)/length
+5. [ ] Pour a certain amount of water into drain reservoir.
+6. [ ] Take a final weight measurement after the addition of the water. 
+7. [ ] Calculate difference= Wi-Wf
+8. [ ] Measure the increase in water level after the addition of water. 
+9. [ ] Calculate length versus weight ration.= (deltaW/length)(length/deltaW)
+   The first () corresponds to the values found for steps 1-4.
+Our calculated displacement value was calculated twice.
+1. [ ] .00471726
+2. [ ] .00491668
+The average was taken: .00481697
+Units: lenghth (cm), weight (g)
+
