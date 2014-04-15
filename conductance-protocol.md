@@ -9,7 +9,7 @@ Overview and materials
 ----------------------
 
 ### Overview ###
-"Conductance" is a property of a conductor, in our case, the xylem of a stem segment.  We are usually interested in "Conductivity," K, which is the conducting property of a material (eg the xylecm tissue of a particular tree species).  We most often report sapwood specific conductivity, K_s, which is the conductance of a stem segment X the length of the segment / the sapwood area of the segment.  
+"Conductance" is a property of a conductor, in our case, the xylem of a stem segment.  We are usually interested in "Conductivity," K, which is the conducting property of a material (eg the xylem tissue of a particular tree species).  We most often report sapwood specific conductivity, K_s, which is the conductance of a stem segment X the length of the segment / the sapwood area of the segment.  
 
 Conductance influences rate of water flow through a stem segment:
 
@@ -64,7 +64,7 @@ Native conductance and flushing
 
 ### Native conductance ###
 
-In order to produce a vulnerability curve, we must measure conductances under a range of water potentials.  We can create these water pontetials by spinning a stem in a centrifuge, or we can allow natural drought condtions to create them.  If we harvest a stem predawn and under water, and if we ahve recent middy and predawn water potentials measured on that plant, then we can create a "native conductance" point on a vulnerability curve.
+In order to produce a vulnerability curve, we must measure conductances under a range of water potentials.  We can create these water pontetials by spinning a stem in a centrifuge, or we can allow natural drought condtions to create them.  If we harvest a stem predawn and under water, and if we have recent middy and predawn water potentials measured on that plant, then we can create a "native conductance" point on a vulnerability curve.
 
 ** Flushing
 To remove all native embolisms, we flush the stem under a pressure head of about 75-100 KPa for 45 min. [CHECK?]
@@ -82,11 +82,11 @@ Flush system with distilled water before adding bleach solution because bleach c
 
 ### Solution and prep. ###
 
-If possible, only degassed KCl solution sould touch the stem.  This is especially important for flushing and measuremnt (both times when solution is pushed through the stem.
+If possible, only degassed KCl solution should touch the stem.  This is especially important for flushing and measurement (both times when solution is pushed through the stem.
 
 X mm KCL
-
-Degassing:  Mix the KCl in a vacuum-ready carboy. Use a stir rod and magnetic stir plate  to agitate the mxture while vacuum is applied.  Pull vacuum to approx -22"Hg and then disconnect and shut down vacuum pump (allow pump to run for 2 minutes pulling air and no vacuum to cool down before switchting off).  20 minutes of stiring under vacuum should be sufficient to degas.
+			
+Degassing:  Mix the KCl in a vacuum-ready carboy. Use a stir rod and magnetic stir plate  to agitate the mxture while vacuum is applied.  Pull vacuum to approx -22"Hg and then disconnect and shut down vacuum pump (allow pump to run for 2 minutes pulling air and no vacuum to cool down before switching off).  20 minutes of stirring under vacuum should be sufficient to degas.
 
 Anytime the carboy is opened, pull vacuum and degas the solution
 
@@ -145,4 +145,21 @@ Alternatively, we can avoid flushing all together and collect stems under very h
 5. [ ] Spin stem at next RPM point and remeasure.  Do this until measure flow drops to near background
 
 [TODO]
+
+###Calculation of Pipette Displacement###
+1. [ ] Take an initial weight measurement of a certain amount of water in the drain reservoir.
+2. [ ] Submerge a certain marked length of pipette into the water of the drain reservoir
+3. [ ] Take a final weight measurement after the certain length of pipette is submerged.
+4. [ ] Compute pipette displacement= (Wi-Wf)/length
+5. [ ] Pour a certain amount of water into drain reservoir.
+6. [ ] Take a final weight measurement after the addition of the water. 
+7. [ ] Calculate difference= Wi-Wf
+8. [ ] Measure the increase in water level after the addition of water. 
+9. [ ] Calculate length versus weight ration.= (deltaW/length)(length/deltaW)
+   The first () corresponds to the values found for steps 1-4.
+Our calculated displacement value was calculated twice.
+1. [ ] .00471726
+2. [ ] .00491668
+The average was taken: .00481697
+Units: lenghth (cm), weight (g)
 
