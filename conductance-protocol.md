@@ -9,6 +9,7 @@ Overview and materials
 ----------------------
 
 ### Overview ###
+
 "Conductance" is a property of a conductor, in our case, the xylem of a stem segment.  We are usually interested in "Conductivity," K, which is the conducting property of a material (eg the xylem tissue of a particular tree species).  We most often report sapwood specific conductivity, K_s, which is the conductance of a stem segment X the length of the segment / the sapwood area of the segment.  
 
 Conductance influences rate of water flow through a stem segment:
@@ -66,7 +67,7 @@ Native conductance and flushing
 
 In order to produce a vulnerability curve, we must measure conductances under a range of water potentials.  We can create these water pontetials by spinning a stem in a centrifuge, or we can allow natural drought condtions to create them.  If we harvest a stem predawn and under water, and if we have recent middy and predawn water potentials measured on that plant, then we can create a "native conductance" point on a vulnerability curve.
 
-** Flushing
+### Flushing ###
 To remove all native embolisms, we flush the stem under a pressure head of about 75-100 KPa for 45 min. [CHECK?]
 
 We use a "captive air tank" to apply the water pressure.  The tank contains a rubber bladder which we fill with our KCl solution.  A Schrader valve allows us to attach a regulated air source (we use a nitrogen tank with a regulator turned down to the correct pressure)
@@ -116,6 +117,26 @@ We push a dilute KCl solution through the stem at a very low pressure created by
 11. [ ] Turn valves to off position and remove the stem (keeping it under water)
 
 
+### Calculation of Pipette Displacement ###
+
+This only needs to be done once for the system unless we change the pipette or the size/shape of the "drain reservoir" (the beaker on the balance).
+See the photocopied page from the Sperry lab calculation.
+
+1. Take an initial weight measurement of a certain amount of water in the drain reservoir, eg 50g
+2. Submerge a certain marked length of pipette into the water of the drain reservoir making sure the tip is covered.
+3. Take a final weight measurement after the certain length of pipette is submerged.
+4. Compute an initial pipette displacement= (W_i - W_ f) / length
+5. Pour a certain amount of water into drain reservoir in order to increase the length of pipette submerged by a couple of cm.
+6. Take a final weight measurement after the addition of the water. 
+7. Calculate difference= W_i - W_f
+8. Measure the increase in water level after the addition of water. 
+9. Calculate length versus weight ration.= (delta W_1 / length_1)(length_2 / delta W_2). The first ratio, ratio 1, corresponds to the values found for steps 1-4. Our calculated displacement value was calculated twice.:
+   -  0.00471726
+   -  0.00491668
+   The average was taken: .00481697. Units: length (cm), weight (g)
+
+
+
 Centrifuge method of inducing embolism/cavitation
 -------------------------------------------------
 
@@ -146,20 +167,4 @@ Alternatively, we can avoid flushing all together and collect stems under very h
 
 [TODO]
 
-###Calculation of Pipette Displacement###
-1. [ ] Take an initial weight measurement of a certain amount of water in the drain reservoir.
-2. [ ] Submerge a certain marked length of pipette into the water of the drain reservoir
-3. [ ] Take a final weight measurement after the certain length of pipette is submerged.
-4. [ ] Compute pipette displacement= (Wi-Wf)/length
-5. [ ] Pour a certain amount of water into drain reservoir.
-6. [ ] Take a final weight measurement after the addition of the water. 
-7. [ ] Calculate difference= Wi-Wf
-8. [ ] Measure the increase in water level after the addition of water. 
-9. [ ] Calculate length versus weight ration.= (deltaW/length)(length/deltaW)
-   The first () corresponds to the values found for steps 1-4.
-Our calculated displacement value was calculated twice.
-1. [ ] .00471726
-2. [ ] .00491668
-The average was taken: .00481697
-Units: lenghth (cm), weight (g)
 
