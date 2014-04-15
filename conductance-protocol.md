@@ -9,7 +9,7 @@ Overview and materials
 ----------------------
 
 ### Overview ###
-"Conductance" is a property of a conductor, in our case, the xylem of a stem segment.  We are usually interested in "Conductivity," K, which is the conducting property of a material (eg the xylecm tissue of a particular tree species).  We most often report sapwood specific conductivity, K_s, which is the conductance of a stem segment X the length of the segment / the sapwood area of the segment.  
+"Conductance" is a property of a conductor, in our case, the xylem of a stem segment.  We are usually interested in "Conductivity," K, which is the conducting property of a material (eg the xylem tissue of a particular tree species).  We most often report sapwood specific conductivity, K_s, which is the conductance of a stem segment X the length of the segment / the sapwood area of the segment.  
 
 Conductance influences rate of water flow through a stem segment:
 
