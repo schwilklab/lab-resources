@@ -17,3 +17,8 @@ Although it is ok to commit to master, a good workflow on a shared repository is
   3. Issue a pull request so others can review your work before it is merged into /master.
 
   This may be overkill for the protocols repository, but may make sense for others.
+
+Important Note:
+---------------
+
+The plan is to make this repository public.  Because it is very difficult to actually delete anything from a git repository (one can always roll back or inspect a previous commit in the history, it is important to never commit any private information we don't want shared.  I don't think there is much chance of that, but I just wanted to warn everyone.
