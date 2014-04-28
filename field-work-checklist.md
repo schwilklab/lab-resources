@@ -90,4 +90,12 @@ On fires
   - Fire resistant pants
   - gloves
 
+Tree Tagging
+------------
+  - Aluminum tags(check to see if custom tag and correct numbers)
+  - Aluminum nails
+  - hammers
+  - GPS
+  - DBH tapes
+
     
