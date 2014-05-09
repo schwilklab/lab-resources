@@ -1,13 +1,13 @@
 Data Management
 ===============
 
+author: Dylan Schwilk
 
 ## Overview of requirements ##
 
 Metadata is simply data about data. Our data files (such as a table stored as a csv file) do not contain enough information alone in order to reproduce the work or understand the results
 
 ## Documenting data (= metadata) Occurs at at least two levels ##
-
 
 #### At the project level ####
 
@@ -28,7 +28,7 @@ In the Schwilk Lab, we store this data in a README file at the root directory of
 5. Scripts used
 6. Use Conditions
 
-We are still standardizing this, hwoever
+We are still standardizing this, however. Take a look at an example in the [sky island traits repository][traits-distro].
 
 #### At the level of the data files ####
 
@@ -58,7 +58,7 @@ Then we should have a file "trees-metadata.csv":
 | DBH      | numeric | cm    | Tree diameter at breast height              |
 
 
-## File formats and orgnaization ##
+## File formats and organization ##
 
 ### File formats ###
 
@@ -77,7 +77,7 @@ Plain text (csv) is simplest and portable, but not the most powerful Data base f
 
 # Version control and backups
 
-We use [git][git] for version control in the lab. See the [git reference][gitref] for information. We use a central repository workflow and our central repos are all on [GitHub][github]
+We use [git][git] for version control in the lab. See the [git reference][gitref] for information. We use a central repository workflow and our central repositories are all on [GitHub][github]
 
 The main linux servers in the lab are backed up daily
 
@@ -104,9 +104,8 @@ Many agencies now require data management plans. These usually include:
 - costing or resources needed
 
 
-
-
 [git]: http://git-scm.com/
 [gitref]: http://gitref.org/
 [github]: http://github.com/
 [schwilklab]: https://github.com/schwilklab
+[traits-distro]: https://github.com/schwilklab/skyisland-traits-distro/tree/master/traits/conductance/data/DM-oak-resprouts-2013
