@@ -44,13 +44,13 @@ if we have a file "trees.csv":
 
 
 | tag | date | spcode | DBH |
-|-----+-----------+--------+------|
+|---------------------------------|
 | 234 | 5/12/2014 | QUGR3 | 56.3 | 235 | 5/12/2014 | GUGA | 20.2 |
 
 Then we should have a file "trees-metadata.csv":
 
 | variable | type    | units | description                                 |
-|----------+---------+-------+---------------------------------------------|
+|--------------------------------------------------------------------------|
 | tag      | string  |       | Tree tag number.  All trees tagged at 1.37m |
 | date     | date    |       | Date of data collection                     |
 | spcode   | string  |       | USDA plant code (See plants.usda.gov        |
