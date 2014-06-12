@@ -4,54 +4,54 @@ Field Work Checklist
 For all trips
 -------------
 
-  - pens and sharpies
-  - GPSs - check batteries and load waypoints
-  - extra batteries (AA for GPS and decagon, AAA for some headlamps).
-  - radios and chargers
-  - lab field laptop if needed
-  - field notebooks --- rite-n-rain
-  - plastic bags, ziplocks seed collecting bags
-  - calipers
-  - meter tapes
-  - clipboards and data sheets
-  - Field guides (Muller oak paper, Powell, etc)
-  - plant press if collecting
+- pens and sharpies
+- GPSs - check batteries and load waypoints
+- extra batteries (AA for GPS and decagon, AAA for some headlamps).
+- radios and chargers
+- lab field laptop if needed
+- field notebooks --- rite-n-rain
+- plastic bags, ziplocks seed collecting bags
+- calipers
+- meter tapes
+- clipboards and data sheets
+- Field guides (Muller oak paper, Powell, etc)
+- plant press if collecting
 
 
 For climate sensors and soil moisture
 -------------------------------------
 
-  - lab laptop with iButton software
-  - iButton cables and extra sensors
-  - GPSs - check batteries and waypoints
-  - extra batteries
-  - Sensor list (printed)
-  - Decagon software, cable
-  - Extra sensors
-  - shovel
-  - heavy duty ziplocks for soil
-  - cooler and ice for soil
+- lab laptop with iButton software
+- iButton cables and extra sensors
+- GPSs - check batteries and waypoints
+- extra batteries
+- Sensor list (printed)
+- Decagon software, cable
+- Extra sensors
+- shovel
+- heavy duty ziplocks for soil
+- cooler and ice for soil
   
 For tree tagging
 ----------------
 
- - Tree tags (check numbers, ranges, type are all correct). Do you have enough?
- - Nails 8d 2.5 inch work well
- - Hammer
- - wire for tagging small trees
- - wire cutters
- - flagging
+- Tree tags (check numbers, ranges, type are all correct). Do you have enough?
+- Nails 8d 2.5 inch work well
+- Hammer
+- wire for tagging small trees
+- wire cutters
+- flagging
 
 For plant ecophys
 -----------------
 
-  - Water potential: pressure bombs and accessory cases. Check parts, headlamps, hand lenses
-  - nitrogen tanks. Check pressures. We need > 1800 PSI in general
-  - Data sheets with list of tagged trees (Oak plot, DOSE plots) 
-  - Leaf life span: data sheets & rulers
-  - Ziplocks
-  - LICOR 6400.  Check soda lime and dessicant, extra CO2, Batteries (12 or so usually), battery charger
-  - LICOR LAI meter
+- Water potential: pressure bombs and accessory cases. Check parts, headlamps, hand lenses
+- nitrogen tanks. Check pressures. We need > 1800 PSI in general
+- Data sheets with list of tagged trees (Oak plot, DOSE plots) 
+- Leaf life span: data sheets & rulers
+- Ziplocks
+- LICOR 6400.  Check soda lime and dessicant, extra CO2, Batteries (12 or so usually), battery charger
+- LICOR LAI meter
   
 Stem and leaf collection (xylem hydraulics, freezing tests)
 -----------------------------------------------------------
@@ -66,44 +66,44 @@ Stem and leaf collection (xylem hydraulics, freezing tests)
 
 For prescribed burns
 --------------------
-  - Fireloger system: loggers and thermcouples, wire stakes/u-stakes
-  - laptop with HOBO software
+- Fireloger system: loggers and thermcouples, wire stakes/u-stakes
+- laptop with HOBO software
   
 Camping and safety gear
 -----------------------
 
- - FOOD
- - water containers
- - coolers - ice
- - snake chaps (optional)
- - Stove and fuel, matches
- - tents
- - tarps
- - kitchen box
- - lanterns, mantles, propane
- - first aid kit
- - Group food (make list)
- - lab backpacks
+- FOOD
+- water containers
+- coolers - ice
+- snake chaps (optional)
+- Stove and fuel, matches
+- tents
+- tarps
+- kitchen box
+- lanterns, mantles, propane
+- first aid kit
+- Group food (make list)
+- lab backpacks
 
 Personal gear
 -------------
 
 ## Camping trips ##
  
- - Sleeping bag, pad and (pillow)
- - backpack (extras in lab)
- - water containers/canteens (3 liters minimum per person)
- - Good long pants
- - warm clothes, warm hat, gloves (winter/spring)
- - towel
- - boots
- - hat
- - sunscreen
- - insect repellent
- - personal food/snacks
+- Sleeping bag, pad and (pillow)
+- backpack (extras in lab)
+- water containers/canteens (3 liters minimum per person)
+- Good long pants
+- warm clothes, warm hat, gloves (winter/spring)
+- towel
+- boots
+- hat
+- sunscreen
+- insect repellent
+- personal food/snacks
 
 ## On fires ##
 
-  - bandana (for fires)
-  - Fire resistant pants
-  - gloves
+- bandana (for fires)
+- Fire resistant pants
+- gloves
