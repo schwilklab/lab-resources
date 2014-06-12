@@ -1,7 +1,7 @@
 Schwilk Lab Protocols
 =====================
 
-Repository for field and lab protocols.
+Repository for field and lab protocols. Work in progress.
 
 Instructions for editing these protocols
 ----------------------------------------

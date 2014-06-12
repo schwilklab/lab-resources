@@ -3,7 +3,9 @@ Conductance and Vulnerability Curve Protocol
 
 Authors: Dylan Schwilk, Tailor Brown, Josh Willms.
 
-See also Dr. Anna Jacobsen's good webpage of research methods, http://www.csub.edu/~ajacobsen/Research_Methods.htm.  We learned our hydraulics from Dr. Davis, Dr. Jacobsen and Dr. Pratt largely.
+Rough first draft.  This needs checking against our written notes and much missing information filled in!
+
+See also Dr. Anna Jacobsen's webpage of research methods: http://www.csub.edu/~ajacobsen/Research_Methods.htm.  We learned our hydraulics from Dr. Davis, Dr. Jacobsen and Dr. Pratt largely.
 
 Overview and materials
 ----------------------
