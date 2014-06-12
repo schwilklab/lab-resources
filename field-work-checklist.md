@@ -3,19 +3,20 @@ Field Work Checklist
 
 For all trips
 -------------
-  - GPSs - check batteries and waypoints
-  - extra batteries (AA for GPS and decagon, AAA for some headlamps)
+
+  - pens and sharpies
+  - GPSs - check batteries and load waypoints
+  - extra batteries (AA for GPS and decagon, AAA for some headlamps).
   - radios and chargers
   - lab field laptop if needed
   - field notebooks --- rite-n-rain
-  - pens and sharpies
   - plastic bags, ziplocks seed collecting bags
   - calipers
   - meter tapes
   - clipboards and data sheets
-  - shovel
-  - camera NO LAB CAMERA YET 
   - Field guides (Muller oak paper, Powell, etc)
+  - plant press if collecting
+
 
 For climate sensors and soil moisture
 -------------------------------------
@@ -25,24 +26,37 @@ For climate sensors and soil moisture
   - GPSs - check batteries and waypoints
   - extra batteries
   - Sensor list (printed)
-  - Decagon software, extra sensors (for DM), cable
+  - Decagon software, cable
+  - Extra sensors
+  - shovel
+  - heavy duty ziplocks for soil
+  - cooler and ice for soil
   
+For tree tagging
+----------------
+
+ - Tree tags (check numbers, ranges, type are all correct). Do you have enough?
+ - Nails 8d 2.5 inch work well
+ - Hammer
+ - wire for tagging small trees
+ - wire cutters
+ - flagging
+
 For plant ecophys
 -----------------
 
   - Water potential: pressure bombs and accessory cases. Check parts, headlamps, hand lenses
-  - Data sheets with list of tagged trees (Oak plot, DOSE plots)
-  - Leaf life span: data sheets & rulers 
-  - Ziplocks
   - nitrogen tanks. Check pressures. We need > 1800 PSI in general
+  - Data sheets with list of tagged trees (Oak plot, DOSE plots) 
+  - Leaf life span: data sheets & rulers
+  - Ziplocks
   - LICOR 6400.  Check soda lime and dessicant, extra CO2, Batteries (12 or so usually), battery charger
   - LICOR LAI meter
-  - plant press (optional)
   
 Stem and leaf collection (xylem hydraulics, freezing tests)
 -----------------------------------------------------------
 
-- Degassed water
+- Degassed water (10+ gallons)
 - Large ziplocks, large plastic garbage bags
 - Collection containers (shampoo bottles)
 - Parafilm
@@ -53,11 +67,12 @@ Stem and leaf collection (xylem hydraulics, freezing tests)
 For prescribed burns
 --------------------
   - Fireloger system: loggers and thermcouples, wire stakes/u-stakes
+  - laptop with HOBO software
   
 Camping and safety gear
 -----------------------
 
- - FOOD. Buy food.
+ - FOOD
  - water containers
  - coolers - ice
  - snake chaps (optional)
@@ -72,6 +87,9 @@ Camping and safety gear
 
 Personal gear
 -------------
+
+## Camping trips ##
+ 
  - Sleeping bag, pad and (pillow)
  - backpack (extras in lab)
  - water containers/canteens (3 liters minimum per person)
@@ -84,10 +102,8 @@ Personal gear
  - insect repellent
  - personal food/snacks
 
-On fires
---------
+## On fires ##
+
   - bandana (for fires)
   - Fire resistant pants
   - gloves
-
-    
