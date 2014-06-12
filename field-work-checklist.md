@@ -88,7 +88,7 @@ Camping and safety gear
 Personal gear
 -------------
 
-## Camping trips ##
+### Camping trips ###
  
 - Sleeping bag, pad and (pillow)
 - backpack (extras in lab)
@@ -102,7 +102,7 @@ Personal gear
 - insect repellent
 - personal food/snacks
 
-## On fires ##
+### On fires ###
 
 - bandana (for fires)
 - Fire resistant pants
