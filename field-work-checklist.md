@@ -76,7 +76,7 @@ Camping and safety gear
 - water containers
 - coolers - ice
 - snake chaps (optional)
-- Stove and fuel, matches
+- Stove and propane fuel, matches
 - tents
 - tarps
 - kitchen box
@@ -91,19 +91,21 @@ Personal gear
 ### Camping trips ###
  
 - Sleeping bag, pad and (pillow)
-- backpack (extras in lab)
-- water containers/canteens (3 liters minimum per person)
-- Good long pants
+- sturdy backpack (daypack --- extras in lab)
+- water containers/canteens (3 liters per person).  You will drink at least 3L per day on the trail
+- Headlamp (or flashlight, but headlamps are more useful)
+- Sturdy long pants such as Carharts.
 - warm clothes, warm hat, gloves (winter/spring)
 - towel
 - boots
-- hat
-- sunscreen
+- sun hat -- important!
+- sunscreen -- important!
 - insect repellent
 - personal food/snacks
+- notebook and pen
 
 ### On fires ###
 
 - bandana (for fires)
-- Fire resistant pants
+- fire resistant pants (cotton, not synthetic)
 - gloves
