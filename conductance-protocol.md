@@ -35,14 +35,16 @@ Stem collection and preparation
 
 ### Materials ###
 
-- degassed water or degassed (XX mmol) KCL. Several gallons.
+- degassed water or degassed (20 mmol) KCL. Several gallons.
 - Large ziplocs for holding water to stem and for putting stems in. Use Ziploc brand "Big Bags XL" 60cm x 51cm.
 - sharp clippers
-- MORE?
+- Small bottles(we use travel size shampoo bottles)
+- parafilm
 
 ### Collection ###
 
 Label the collection by collection date, site, tree tag, and species (using the USDA species codes)
+-diameter of stem (after bark is removed) needs to be less than 0.32 inches to fit into the grommet and the grommet fit into the tubing.
 
 [TODO]
 
@@ -52,7 +54,8 @@ Collect under water (degassed KCl if available)
 
 NOTE: Keep stem ends under water (dilute KCl at all times). Transfer cut stems in completely solution-filled ziplock bags to avoid any air contact with cut ends.
 
-1. [ ] Cut the stem segment under water to ~13.5 cm long. Record actual length in stem file.
+1. [ ] Cut the stem segment under water to ~13.5 cm long. Record actual length in stem file. 
+-TIP: Cut stem long for flushing ~longer than 15 cm. After flushing stem shave at least 1 cm off from each end. Then cut stem to correct length.
 2. [ ] Save all distal leaves and bag them together in a ziplock labeled with stem id, tree tag, species code and date
 3. [ ] Within 2-4 days of collection: Measure total distal leaf area in cm^2 (required), bag leaves for drying. Get dry weights (not required). Record in stem file.
 4. [ ] Within 2-4 days of collection. Measure stem distal sapwood area.  Use the distal stem segment cut away to avoid dealing with the 13.5 cm segment used for conductance.  Measure distal stem diameter, Ds (excluding bark and phloem). Record.  Then measure pith diameter, Dp, and record.  Sapwood area is pi*(.5*Ds)^2 - pi(0.5*Dp)^2. Record in diameters in stem file. See [[file:stem-sheet-for-entry.xls][stem-sheet-for-entry.xls]]
@@ -64,10 +67,10 @@ Native conductance and flushing
 
 ### Native conductance ###
 
-In order to produce a vulnerability curve, we must measure conductances under a range of water potentials.  We can create these water pontetials by spinning a stem in a centrifuge, or we can allow natural drought condtions to create them.  If we harvest a stem predawn and under water, and if we have recent middy and predawn water potentials measured on that plant, then we can create a "native conductance" point on a vulnerability curve.
+In order to produce a vulnerability curve, we must measure conductances under a range of water potentials.  We can create these water pontetials by spinning a stem in a centrifuge, or we can allow natural drought condtions to create them.  If we harvest a stem predawn and under water, and if we have recent midday and predawn water potentials measured on that plant, then we can create a "native conductance" point on a vulnerability curve.
 
 ** Flushing
-To remove all native embolisms, we flush the stem under a pressure head of about 75-100 KPa for 45 min. [CHECK?]
+To remove all native embolisms, we flush the stem under a pressure head of about 75-100 KPa for 45 min. (For Oaks)
 
 We use a "captive air tank" to apply the water pressure.  The tank contains a rubber bladder which we fill with our KCl solution.  A Schrader valve allows us to attach a regulated air source (we use a nitrogen tank with a regulator turned down to the correct pressure)
 
@@ -84,7 +87,7 @@ Flush system with distilled water before adding bleach solution because bleach c
 
 If possible, only degassed KCl solution should touch the stem.  This is especially important for flushing and measurement (both times when solution is pushed through the stem.
 
-X mm KCL
+20 mmol KCL-Use 1.4195g KCL per Liter
 			
 Degassing:  Mix the KCl in a vacuum-ready carboy. Use a stir rod and magnetic stir plate  to agitate the mxture while vacuum is applied.  Pull vacuum to approx -22"Hg and then disconnect and shut down vacuum pump (allow pump to run for 2 minutes pulling air and no vacuum to cool down before switching off).  20 minutes of stirring under vacuum should be sufficient to degas.
 
@@ -99,7 +102,7 @@ We push a dilute KCl solution through the stem at a very low pressure created by
 ### Pre-measurement prep ###
 
 1. [ ] Start with clean system (see cleaning, above).
-2. [ ] Prepare degassed KCl solution.  Have some solution always ready as backup.  [TODO]
+2. [ ] Prepare degassed KCl solution.  Have some solution always ready as backup!!  [TODO]
 
 ### Conductance measurement steps ###
 
@@ -110,7 +113,7 @@ We push a dilute KCl solution through the stem at a very low pressure created by
 5. [ ] Double check: NO BUBBLES. The system will not work with any bubbles
 6. [ ] Start the balance communication software "hydro-balance.py".  Navigate to the "balance folder" on the balance computer via terminal ("> cd balance") then start he software ("> ./hydro-balance-py").  You can change the default update interval and averaging times with options at the command line
 7. [ ] Set valves for background flow.  This measures flow across the stem under NO head pressure (balance height equilized with balance height sight tube.  Wait at least x minutes for the flow to stabilize. The flow should be slightly negative and the absolute value should be less than 0.00005 g/s.  If the flow is larger than that (positive or negative) there is a leak that must be fixed before you continue. Record the background flow on the data sheet ("flow.bg.pre"). Record the balance fluid height as measured at the sight tube ("height.balance.pre").
-8. [ ] Turn the valves to the "flow measurement position (TODO DIAGRAM). Wait for the flow to stabilize. Record the flow rate (g/s) as "flow".
+8. [ ] Turn the valves to the "flow measurement position (TODO DIAGRAM). Wait for the flow to stabilize. Record the flow rate (mg/s) as "flow".
 9. [ ] Measure the fluid temperature and record under "temp".
 10. [ ] Turn the valves to "background flow" (TODO DIAGRAM).  Measure "flow.bg.post" and "height.balance.post"
 11. [ ] Turn valves to off position and remove the stem (keeping it under water)
@@ -121,7 +124,7 @@ Centrifuge method of inducing embolism/cavitation
 
 ### Applying xylem tension via centrifuge ###
 
-We can spin a stem in a custom-made centrifuge rotor (for a Sorvall centrifuge) in order to create tension in th xylem.  The stem ends must be kept under water.  L-shaped plastic wells filled with degassed KCl allow the solution to move up to cover the stem end as we spin.  It is impossible to avoid some air exposure, so we use small make-up sponges in the wells to keep the end moist during the time while the stems are being placed in the rotor.
+We can spin a stem in a custom-made centrifuge rotor (for a Sorvall centrifuge) in order to create tension in the xylem. For the Butler lab centrifuge use rotor code #5 for an SS34 rotor. The stem ends must be kept under water.  L-shaped plastic wells filled with degassed KCL allow the solution to move up to cover the stem end as we spin.  It is impossible to avoid some air exposure, so we use small make-up sponges in the wells to keep the end moist during the time while the stems are being placed in the rotor.
 
 To calculate the tension in Pa produced by spinning at a given RPM, convert RPM to radians per minutes squared, multiply by the radius of the spinning arm (1/2 the distance from water surface to water surface in the wells when spinning) squared then multiply by the density of water and divide by 2. So to get the value in MPa:
 
