@@ -58,8 +58,9 @@ NOTE: Keep stem ends under water (dilute KCl at all times). Transfer cut stems i
 1. [ ] Cut the stem segment under water to ~13.5 cm long. Record actual length in stem file. 
 -TIP: Cut stem long for flushing ~longer than 15 cm. After flushing stem shave at least 1 cm off from each end. Then cut stem to correct length.
 2. [ ] Save all distal leaves and bag them together in a ziplock labeled with stem id, tree tag, species code and date
-3. [ ] Within 2-4 days of collection: Measure total distal leaf area in cm^2 (required), bag leaves for drying. Get dry weights (not required). Record in stem file.
-4. [ ] Within 2-4 days of collection. Measure stem distal sapwood area.  Use the distal stem segment cut away to avoid dealing with the 13.5 cm segment used for conductance.  Measure distal stem diameter, Ds (excluding bark and phloem). Record.  Then measure pith diameter, Dp, and record.  Sapwood area is pi*(.5*Ds)^2 - pi(0.5*Dp)^2. Record in diameters in stem file. See [[file:stem-sheet-for-entry.xls][stem-sheet-for-entry.xls]]
+3. [ ] Using a piece of tape label the stem with ID and direction of flow.
+4. [ ] Within 2-4 days of collection: Measure total distal leaf area in cm^2 (required), bag leaves for drying. Get dry weights (not required). Record in stem file.
+5. [ ] Within 2-4 days of collection. Measure stem distal sapwood area.  Use the distal stem segment cut away to avoid dealing with the 13.5 cm segment used for conductance.  Measure distal stem diameter, Ds (excluding bark and phloem). Record.  Then measure pith diameter, Dp, and record.  Sapwood area is pi*(.5*Ds)^2 - pi(0.5*Dp)^2. Record in diameters in stem file. See [[file:stem-sheet-for-entry.xls][stem-sheet-for-entry.xls]]
 
 
 
@@ -85,7 +86,7 @@ Cleaning and preparing conductance measurement and flushing system
 
 ### Cleaning ###
 
-Clean every TODO:X days with dilute bleach (TODO: X per X).  Never allow bleach solution to touch the filter.
+Clean every TODO:X days with 10% bleach solution (TODO: X per X).  Never allow bleach solution to touch the filter.
 
 Flush system with distilled water before adding bleach solution because bleach contacting KCl will cause a precipitate
 
@@ -93,7 +94,8 @@ Flush system with distilled water before adding bleach solution because bleach c
 
 If possible, only degassed KCl solution should touch the stem.  This is especially important for flushing and measurement (both times when solution is pushed through the stem.
 
-20 mmol KCL-Use 1.4195g KCL per Liter
+20 mmol KCL
+-Use 1.4915g KCL per Liter
 			
 Degassing:  Mix the KCl in a vacuum-ready carboy. Use a stir rod and magnetic stir plate  to agitate the mxture while vacuum is applied.  Pull vacuum to approx -22"Hg and then disconnect and shut down vacuum pump (allow pump to run for 2 minutes pulling air and no vacuum to cool down before switching off).  20 minutes of stirring under vacuum should be sufficient to degas.
 
@@ -102,6 +104,21 @@ Anytime the carboy is opened, pull vacuum and degas the solution
 
 Conductance measurements
 ------------------------
+
+### Materials ###
+- Tyco healthcare Kendall brand IV bags
+-Tygon Tubing
+	-1/2"ID 5/8"OD 1/16" Wall thickness
+	-1/2"ID 3/4"OD 1/8" Wall thickness
+	-1/4"ID 5/16"OD 1/16" Wall Thickness
+-Nalgene stopcock
+	-3 way 4mm
+	-2 way 4mm
+-Denver Instrument balance
+-grommets
+-hose clamps
+-Watts Regulator captive air tank
+TIP: Other brands of captive air tanks rust inside. eg. H2OW-TO by water works
 
 We push a dilute KCl solution through the stem at a very low pressure created by a height differential between the water level in the beaker on the balance and the water level in the IV bag held about 70cm higher.  Two "sight tubes" allow us to acurately read the height at these two locations by opening valves to equalize the pressure between the sight tube and either the beaker ("balance height") or the IV bag ("head height").
 
@@ -151,6 +168,10 @@ Centrifuge method of inducing embolism/cavitation
 ### Applying xylem tension via centrifuge ###
 
 We can spin a stem in a custom-made centrifuge rotor (for a Sorvall centrifuge) in order to create tension in the xylem. For the Butler lab centrifuge use rotor code #5 for an SS34 rotor. The stem ends must be kept under water.  L-shaped plastic wells filled with degassed KCL allow the solution to move up to cover the stem end as we spin.  It is impossible to avoid some air exposure, so we use small make-up sponges in the wells to keep the end moist during the time while the stems are being placed in the rotor.
+
+TIP: Do not spin with grommets on stems!!
+TIP: Double nut the metal plates to hold stems in place.
+TIP: Slowly increase to target MPa as to keep stems in place.
 
 To calculate the tension in Pa produced by spinning at a given RPM, convert RPM to radians per minutes squared, multiply by the radius of the spinning arm (1/2 the distance from water surface to water surface in the wells when spinning) squared then multiply by the density of water and divide by 2. So to get the value in MPa:
 
