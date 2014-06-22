@@ -3,7 +3,9 @@ Conductance and Vulnerability Curve Protocol
 
 Authors: Dylan Schwilk, Tailor Brown, Josh Willms.
 
-See also Dr. Anna Jacobsen's good webpage of research methods, http://www.csub.edu/~ajacobsen/Research_Methods.htm.  We learned our hydraulics from Dr. Davis, Dr. Jacobsen and Dr. Pratt largely.
+Rough first draft.  This needs checking against our written notes and much missing information filled in!
+
+See also Dr. Anna Jacobsen's webpage of research methods: http://www.csub.edu/~ajacobsen/Research_Methods.htm.  We learned our hydraulics from Dr. Davis, Dr. Jacobsen and Dr. Pratt largely.
 
 Overview and materials
 ----------------------
@@ -130,10 +132,10 @@ We push a dilute KCl solution through the stem at a very low pressure created by
 ### Conductance measurement steps ###
 
 1. [ ] Start a new data sheet and record the tree tag, species code, stem id, your name and the date. Record the stem length.  [[file:curve-sheet-for-entry.xls][Vulnerability curve data sheets]]
-2. [ ] Clear the conductance tubing of all bubbles
+2. [ ] Clear the conductance tubing of all bubbles and remove any kinks in the tubing
 3. [ ] Open valves to allow slow flow into the proximal end tube and insert the proximal end of the stem in this tube. Clear all bubbles that may cling to the stem and grommet and clamp the tube lightly.
 4. [ ] Attach the distal end similarly. See valve diagram [TODO]
-5. [ ] Double check: NO BUBBLES. The system will not work with any bubbles
+5. [ ] Double check: NO BUBBLES. NO KINKS. The system will not work with any bubbles
 6. [ ] Start the balance communication software "hydro-balance.py".  Navigate to the "balance folder" on the balance computer via terminal ("> cd balance") then start he software ("> ./hydro-balance-py").  You can change the default update interval and averaging times with options at the command line
 7. [ ] Set valves for background flow.  This measures flow across the stem under NO head pressure (balance height equilized with balance height sight tube.  Wait at least x minutes for the flow to stabilize. The flow should be slightly negative and the absolute value should be less than 0.00005 g/s.  If the flow is larger than that (positive or negative) there is a leak that must be fixed before you continue. Record the background flow on the data sheet ("flow.bg.pre"). Record the balance fluid height as measured at the sight tube ("height.balance.pre").
 8. [ ] Turn the valves to the "flow measurement position (TODO DIAGRAM). Wait for the flow to stabilize. Record the flow rate (mg/s) as "flow".
@@ -164,6 +166,12 @@ See the photocopied page from the Sperry lab calculation.
 
 Centrifuge method of inducing embolism/cavitation
 -------------------------------------------------
+1. Place stem underwater in a spare bin of degassed KCl water
+2. Cut a thin slice off of both ends of the stem using a razer blade
+3. Measure the length of the stem using calipers (ENSURING THAT THE STEM REMAINS SUBMERGED)
+4. If the stem surfaces, recut and remeasure
+5. Transport the stem in a bag of degassed KCl to the bin for conductance measurements
+
 
 ### Applying xylem tension via centrifuge ###
 
@@ -185,6 +193,7 @@ Some species such as oaks, will show conductance loss at by high water potential
 
 Alternatively, we can avoid flushing all together and collect stems under very hydrated natural conditions.
 
+### Stem Re-Preparation After Each Centrifuge Spin ###
 
 ### Vulnerability curve checklist ###
 1. [ ] Prepare stem (see )
