@@ -106,18 +106,6 @@ Personal gear
 
 ### On fires ###
 
-<<<<<<< HEAD
-Tree Tagging
-------------
-  - Aluminum tags(check to see if custom tag and correct numbers)
-  - Aluminum nails
-  - hammers
-  - GPS
-  - DBH tapes
-
-    
-=======
 - bandana (for fires)
 - fire resistant pants (cotton, not synthetic)
 - gloves
->>>>>>> FETCH_HEAD
