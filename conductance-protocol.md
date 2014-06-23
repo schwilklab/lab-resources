@@ -73,7 +73,9 @@ Native conductance and flushing
 In order to produce a vulnerability curve, we must measure conductances under a range of water potentials.  We can create these water pontetials by spinning a stem in a centrifuge, or we can allow natural drought condtions to create them.  If we harvest a stem predawn and under water, and if we have recent midday and predawn water potentials measured on that plant, then we can create a "native conductance" point on a vulnerability curve.
 
 ### Flushing ###
-To remove all embolism, we flush the stem under a pressure head of about 75-100 KPa for 45 min (for oaks). For gymnosperms, we have been experimenting with vacuum incubation followed by low pressure flushing.
+To remove all embolism, we flush the stem under a pressure head of about 75-100 KPa for 45 min (for oaks). For gymnosperms, we have been experimenting with vacuum incubation followed by low pressure flushing (see [Hietz et al 2008][Hietz-2008] and [Espino and Schenk 2011][Espino-2011].
+
+
 
 We use a "captive air tank" to apply the water pressure. The tank contains a rubber bladder which we fill with our KCl solution. A Schrader valve allows us to attach a regulated air source (we use a nitrogen tank with a regulator turned down to the correct pressure)
 
@@ -103,6 +105,8 @@ Anytime the carboy is opened, pull vacuum and degas the solution
 
 Conductance measurements
 ------------------------
+
+See [Melcher et al 2012][Melcher-2012] for an review of measurement methods and recommendations.
 
 ### Major equipment parts ###
 
@@ -214,3 +218,6 @@ Alternatively, we can avoid flushing all together and collect stems under very h
 [TODO]
 
 
+[Hietz-2008]: http://www.afs-journal.org/articles/forest/abs/2008/05/f07209/f07209.html
+[Espino-2011]: http://jxb.oxfordjournals.org/content/62/3/1119.short
+[Melcher-2012]: http://onlinelibrary.wiley.com/doi/10.1111/j.2041-210X.2012.00204.x/full
