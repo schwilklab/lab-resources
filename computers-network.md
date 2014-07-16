@@ -39,7 +39,7 @@ pre-up /sbin/ethtool -s eth0 autoneg on
 net.ipv6.conf.all.disable_ipv6 = 1
 net.ipv6.conf.default.disable_ipv6 = 1
 net.ipv6.conf.lo.disable_ipv6 = 1
-``
+```
 
  - Modify grub settings to add option ipv6.disabled=1
 
