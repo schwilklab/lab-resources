@@ -26,14 +26,15 @@ pre-up /sbin/ethtool -s eth0 autoneg off speed 100 duplex full
 
 ### "new" ports ###
 
-1. NIC pre-up hook should be:
+#### NIC pre-up hook should be: ####
 
 ```
 pre-up /sbin/ethtool -s eth0 autoneg on
 ```
 
-2. ipv6 must be disabled on the machine.
-  - add the following lines to /etc/sysctl.conf:
+#### ipv6 must be disabled on the machine. ####
+
+ - add the following lines to /etc/sysctl.conf:
 
 ```
 net.ipv6.conf.all.disable_ipv6 = 1
@@ -47,5 +48,5 @@ net.ipv6.conf.lo.disable_ipv6 = 1
 
    then update-grub
 
-3. Autonegotiation MUST be used on the new ports, manual setting of any speed fails
+#### Autonegotiation MUST be used on the new ports, manual setting of any speed fails ####
 
