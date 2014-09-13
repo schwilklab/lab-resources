@@ -14,7 +14,7 @@ For all trips
 - calipers
 - meter tapes
 - clipboards and data sheets
-- Field guides (Muller oak paper, Powell, etc)
+- Field guides and floras (Correll and Johnson, Muller oak paper, Powell, etc)
 - plant press if collecting
 
 
@@ -25,9 +25,9 @@ For climate sensors and soil moisture
 - iButton cables and extra sensors
 - GPSs - check batteries and waypoints
 - extra batteries
-- Sensor list (printed)
-- Decagon software, cable
-- Extra sensors
+- sensor list (printed)
+- decagon software, cable
+- extra sensors
 - shovel
 - heavy duty ziplocks for soil
 - cooler and ice for soil
@@ -35,9 +35,9 @@ For climate sensors and soil moisture
 For tree tagging
 ----------------
 
-- Tree tags (check numbers, ranges, type are all correct). Do you have enough?
-- Nails 8d 2.5 inch work well
-- Hammer
+- tree tags (check numbers, ranges, type are all correct). Do you have enough?
+- nails 8d 2.5 inch work well
+- hammer
 - wire for tagging small trees
 - wire cutters
 - flagging
@@ -45,44 +45,45 @@ For tree tagging
 For plant ecophys
 -----------------
 
-- Water potential: pressure bombs and accessory cases. Check parts, headlamps, hand lenses
+- water potential: pressure bombs and accessory cases. Check parts, headlamps, hand lenses
 - nitrogen tanks. Check pressures. We need > 1800 PSI in general
-- Data sheets with list of tagged trees (Oak plot, DOSE plots) 
-- Leaf life span: data sheets & rulers
-- Ziplocks
+- data sheets with list of tagged trees (Oak plot, DOSE plots) 
+- leaf life span: data sheets & rulers
+- ziplocks
 - LICOR 6400.  Check soda lime and dessicant, extra CO2, Batteries (12 or so usually), battery charger
 - LICOR LAI meter
   
 Stem and leaf collection (xylem hydraulics, freezing tests)
 -----------------------------------------------------------
 
-- Degassed water (10+ gallons)
-- Large ziplocks, large plastic garbage bags
-- Collection containers (shampoo bottles)
-- Parafilm
+- water containers (10+ gallons)
+- large ziplocks, large plastic garbage bags
+- collection containers (shampoo bottles)
+- parafilm
 - ziplocs for leaves
-- Good clippers
-- Large cooler(s)
+- good clippers
+- large cooler(s)
+- ladders (if needed)
 
 For prescribed burns
 --------------------
-- Fireloger system: loggers and thermcouples, wire stakes/u-stakes
+- fireloger system: loggers and thermcouples, wire stakes/u-stakes
 - laptop with HOBO software
   
 Camping and safety gear
 -----------------------
 
-- FOOD
+- food
 - water containers
 - coolers - ice
 - snake chaps (optional)
-- Stove and propane fuel, matches
+- stove and propane fuel, matches
 - tents
 - tarps
 - kitchen box
 - lanterns, mantles, propane
 - first aid kit
-- Group food (make list)
+- group food (make list)
 - lab backpacks
 
 Personal gear
@@ -90,11 +91,11 @@ Personal gear
 
 ### Camping trips ###
  
-- Sleeping bag, pad and (pillow)
+- sleeping bag, pad and (pillow)
 - sturdy backpack (daypack --- extras in lab)
 - water containers/canteens (3 liters per person).  You will drink at least 3L per day on the trail
-- Headlamp (or flashlight, but headlamps are more useful)
-- Sturdy long pants such as Carharts.
+- headlamp (or flashlight, but headlamps are more useful)
+- sturdy long pants such as Carharts.
 - warm clothes, warm hat, gloves (winter/spring)
 - towel
 - boots
