@@ -14,6 +14,9 @@ Funding for Undergraduate students
 Funding for Graduate students
 =============================
 
+-	[New and Continuing Student
+    Fellowships](<http://www.depts.ttu.edu/gradschool/funding/new-current.php>)
+	(Texas Tech)
 -   [American Association of University
     Women](<http://www.aauw.org/what-we-do/educational-funding-and-awards/>)
 -   [Chateaubriand
