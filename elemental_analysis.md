@@ -1,16 +1,30 @@
 Preparing samples for elemental analysis (C:N, isotopes, etc)
 ============================================================
 
-Authors: Dylan Schwilk, Others?
+Authors: Dylan Schwilk, Xiulin Gao
 
-Rough draft.
 
 Overview and materials
 ----------------------
+The process contains 3 major steps: sample collection, grinding, packing. Materials required will be listed for each step.
 
-
-Sample collection
+Sample collection and processing 
 -----------------
+### Materials and equipment ###
+- ziplocs, envelope bags and marker
+- good clippers
+- large and portable coolers
+- digital callipers with high accuracy
+- leaf area index scanner
+- drying oven
+- balance
+### Procedure ###
+1. Collect leaf samples from plot, mark with tree tag and species code, keep all samples fresh with cooler, then transport samples back to lab
+2. process all samples ASAP. each sample must be separated into two ziplocs, one is for protein analysis, another is for C/N analysis. ziplocs are marked with tree tag, species code and "P" ( for protein analysis ) or "C/N" ( for C/N analysis ). pack the same category into a large ziploc, mark this ziploc with plot, sample date, and sign your name initial on it
+3. for oak species : chose 5 leaves, scan total projected (one-side) leaf area, then pack up these leaves with envelope bags, mark the bag with total leaf area, tree tag, species code and "C/N"
+4. for pine species : chose 5 needles or fascicles. for single needle, measure diameter1 of needle, diameter2 of needle 90 degrees to first measurement and original length; for fascicle, cut all needles into same length , the outcome shape should look like a cylinder. then count the number of needles included in each fascicle, measure diameter1 of fascicle base, diameter2 of fascicle base 90 degrees to first measurement and length. all variables should be written down and math with sample tag and species code. after all measurements are done, pack the samples into envelope bag and mark the bag with tag, species code and "C/N"
+5. put all those packed samples into drying oven, keep temperature at 72℃ (?) and dry those samples for 48 hours
+6. after 48 hours drying, weight all those samples and record 
 
 Sample grinding
 ---------------
@@ -19,14 +33,22 @@ Sample grinding
 
 - liquid nitrogen
 - mortar and pestle
+- distill water and 75% alcohol for cleaning mortar and pestle
 - microcentrifuge tubes for ground material
+- stander for microcentrifuges
+- lab coat, goggles and gloves
+- large ziplocs
 
 ### Procedure ###
 
 
-Collect liquid nitrogen from Holaday lab (TODO expand)
+1. Collect liquid nitrogen from Holaday lab 
+2. clean mortar and pestle with distill water first, then use 75% alcohol to clean them one more time, then dry them with clean tissue.
+3. put the sample into mortar, pour liquid nitrogen into mortar carefully, wait few seconds for liquid nitrogen " calm down ", then grind sample until it is fine enough, then pour ground sample into microcentrifuge. you can use a stander to make it convenient for you to grab a microcentrifuge
+4. after a sample is done, clean mortar and pestle through step 2, then move on to next sample
+5. all ground samples are packed into a large ziploc marked with date, name initial and " ground samples "
 
-TODO: Gabrielle?
+Notes: please put on your lab coat, goggles and gloves, be careful, do not burn yourself with liquid nitrogen
 
 
 Sample preparation for sending out
