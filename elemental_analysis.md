@@ -11,6 +11,7 @@ The process contains 3 major steps: sample collection, grinding, packing. Materi
 Sample collection and processing 
 -----------------
 ### Materials and equipment ###
+
 - ziplocs, envelope bags and marker
 - good clippers
 - large and portable coolers
@@ -18,7 +19,9 @@ Sample collection and processing
 - leaf area index scanner
 - drying oven
 - balance
+
 ### Procedure ###
+
 1. Collect leaf samples from plot, mark with tree tag and species code, keep all samples fresh with cooler, then transport samples back to lab
 2. process all samples ASAP. each sample must be separated into two ziplocs, one is for protein analysis, another is for C/N analysis. ziplocs are marked with tree tag, species code and "P" ( for protein analysis ) or "C/N" ( for C/N analysis ). pack the same category into a large ziploc, mark this ziploc with plot, sample date, and sign your name initial on it
 3. for oak species : chose 5 leaves, scan total projected (one-side) leaf area, then pack up these leaves with envelope bags, mark the bag with total leaf area, tree tag, species code and "C/N"
