@@ -23,7 +23,6 @@ Schwilk Lab. Room 206 Biology
 - Emergency – 911 or 9-91
 - Non-Emergency – 742-3931
 
-
 ## Document Locations ##
 
 The safety Binder is on shelf on the west lab bench. Experimental protocols are under version control. See https://github.com/schwilklab/protocols
@@ -45,7 +44,11 @@ The safety Binder is on shelf on the west lab bench. Experimental protocols are 
 
 ### Protocols and Standard Operating Procedures (SOPs) ###
 
-- All experiments have a written SOP.  See https://github.com/schwilklab/protocols
+Experimental methods protocols are at https://github.com/schwilklab/protocols/methods
+
+The lab safety plan and specific safety protocols are at https://github.com/schwilklab/protocols/safety
+
+- All experiments have a written SOP. See https://github.com/schwilklab/protocols
 - Must explain in layman terms what the experiment is about.
 - Must list the potential hazards of the compounds used or generated during the experiment.
 - Must list what engineering controls are to be in place.
@@ -69,7 +72,7 @@ The safety Binder is on shelf on the west lab bench. Experimental protocols are 
 - Notify the Laboratory Manager so spill kit supplies can be replenished.
 - If the spill is over 1 liter the lab is to be evacuated and EH&S called to assist in cleanup.
 - If the spill is of a flammable chemical, regardless of amount the lab is to be evacuated and EH&S notified.
-- Areas where carcinogens, mutagens or teratogens will be worked with, signs must be placed in these area to identify what hazards are present. None of our lab protocols use carcinogens mutagens or teratogens.
+- Areas where carcinogens, mutagens or teratogens will be worked with, signs must be placed in these area to identify what hazards are present. NOTE: None of our lab protocols use carcinogens mutagens or teratogens.
 - If teratogens are to be used, females need to be notified so that if alternate work arrangements need to be made.
 - If an accident in the laboratory occurs where someone is injured or property is damaged an incident report is to be filled out within 24 hours and submitted to the DCHO.
 - If there is an accident where medical services are needed call the University Police Department to get medical services in route.
