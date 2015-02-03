@@ -3,6 +3,31 @@ Schwilk Lab Protocols
 
 Repository for field and lab protocols. Work in progress.
 
+File organization
+-----------------
+
+### lab-org ###
+
+This folder folder for information on lab business, scholarships and funding, data management, etc.
+
+- [lab-business](lab-org/lab-business.md): For information on mailing packages, departmental contacts, orderings supplies
+- [computers-network](lab-org/computers-network.md): Instructions and description of our lab computer network
+- [data-management](lab-org/data-management.md): Our current lab best practices for managing lab data
+- [funding-opportunities](lab-org/funding_opportunities.md): List of graduate fellowships and scholarships
+- [field-work-checklist](lab-org/field-work-checklist.md): Use this checklist when packing for the field!
+
+## methods ##
+
+Experimental methods. See individal files
+
+## safety ##
+
+Lab safety plan and safety protocols
+
+- [schwilk-lab-safety-plan](safety/schwilk-lab-safety-plan.md): Our EHS required safety plan. Individual safety protocols covered separately
+- [chainsaw-safety-protocol](safety/chainsaw-safety-protocol.md): Chainsaw safety.
+- [bleach-safety-protocol](safety/bleach-safety-protocol.md): Our most dangerous lab chemical.
+
 Instructions for editing these protocols
 ----------------------------------------
 
