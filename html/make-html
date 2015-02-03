@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+GR=`git rev-parse --show-toplevel`
+DESTDIR=$GR/html
+
+#echo $GR
+#echo $(SRCDIRS)
+
+for s in $GR/*/; do
+    cp $s/*.md $DESTDIR
+done
+
+for i in $DESTDIR/*.md; do
+    pandoc -t html -o $i.html $i
+done 
+
+rm $DESTDIR/*.md
