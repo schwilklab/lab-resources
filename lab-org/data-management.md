@@ -5,11 +5,11 @@ author: Dylan Schwilk
 
 # Overview #
 
-All of our work involves data. With multiple simultaneous projects ranging in size from a few rows of data to millions of records, it is important that we are organized. Data management means
+All of our work involves data. With multiple simultaneous projects ranging in size from a few rows to millions of records, it is important that we are organized. Data management means
 
 1. Recording data in a way that loses no information (format decisions, metadata)
 2. Ensuring that all data is collected and none goes missing (version control, backups)
-3. Ensuring that we can understand our data months or years from now (metadata)
+3. Ensuring that we (and others) can understand our data months or years from now (metadata)
 4. Keeping a record of all decisions regarding our data, all transformations, all reshaping, all corrections (scripts, version control)
 5. Visualizing and analyzing our data (R scripts)
 
@@ -60,7 +60,7 @@ In the Schwilk lab, quality assurance takes the form of R scripts that conduct s
 
 # Scripts #
 
-The main tools we use for data analysis are [R][R] and [Python][Python]. I try to help my students toll learn R.
+The main tools we use for data analysis are [R][R] and [Python][Python]. We also use shell scripts ([Bash][bash]) to glue various other pieces of code and existing software together. I try to help my students to learn R.
 
 ## Some suggestions for code organization ##
 
@@ -150,7 +150,7 @@ Many agencies now require data management plans. These usually include:
 - data management roles and responsibilities
 - costing or resources needed
 
-
+[bash]: http://www.gnu.org/software/bash/
 [csv]: http://en.wikipedia.org/wiki/Comma-separated_values
 [git]: http://git-scm.com/
 [gitref]: http://gitref.org/
