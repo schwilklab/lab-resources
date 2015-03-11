@@ -5,9 +5,9 @@ author: Dylan Schwilk
 
 ## Overview of requirements ##
 
-Metadata means simply data about data. Our data files (such as a table stored as a csv file) do not contain enough information alone for a user to reproduce the work or understand the results. We therefore require additional information stored alongside our data.
+Metadata means simply data about data. Our data files (such as a table stored as a [csv file][csv]) do not contain enough information alone for a user to reproduce the work or understand the results. We therefore require additional information stored alongside our data.
 
-## Documenting data (= metadata) Occurs at at least two levels ##
+## Documenting data (= metadata) occurs at at least two levels ##
 
 #### At the project level ####
 
@@ -51,7 +51,7 @@ if we have a file "trees.csv":
 Then we should have a file "trees-metadata.csv":
 
 | variable | type    | units | description                                |
-|----------+---------+-------+--------------------------------------------|
+|----------|---------|-------|--------------------------------------------|
 | tag      | string  |       | Tree tag number. All trees tagged at 1.37m |
 | date     | date    |       | Date of data collection                    |
 | spcode   | string  |       | USDA plant code (See plants.usda.gov)      |
@@ -62,7 +62,7 @@ Then we should have a file "trees-metadata.csv":
 
 ### File formats ###
 
-Plain text (csv) is simple and portable, but not the most powerful format. However, it is what we most commonly use.  It is easy to enter data using a spreadsheet program (eg LibreOffice Calc or Microsoft Excel). Then save the data as ".csv" and choose an csv format options carefully. Do not store any formulas or calculations (the csv file just stores plain text representing either numbers (eg "3.456") or character strings/factor levels (eg "HighNitrogen").  Each column should include only one type of information.
+Plain text, such as [comma separated values format (csv)][csv], is simple and portable. It is not the most powerful format, but it is what we most commonly use. It is easy to enter data using a spreadsheet program (eg LibreOffice Calc or Microsoft Excel). Then save the data as ".csv" and choose an csv format options carefully. Do not store any formulas or calculations (the csv file just stores plain text representing either numbers (eg "3.456") or character strings/factor levels (eg "HighNitrogen").  Each column should include only one type of information.
 
 #### Some things to watch out for with csv files ####
 
@@ -84,7 +84,6 @@ Plain text (csv) is simple and portable, but not the most powerful format. Howev
 Direct digital data entry is the best for quality assurance, because checks can be built in.  For example, if one is entering tree DBH directly on a tablet computer in the field, it is possible to have the data entry system prohibit negative numbers, numbers over some maximum diameter, etc. That said, we most commonly take data in field notebooks and enter them onto the computer that night or a few days later. It is very important that data entry happens soon after data collection, because real quality assurance can't occur until the data are in digital form.
 
 In the Schwilk lab, quality assurance takes the form of R scripts that conduct sanity checks:  sample size matches the study plan, no unexpected, missing data, no impossible numbers (eg negative leaf length), no extreme (impossible) outliers.
-
 
 # Scripts #
 
@@ -124,8 +123,8 @@ Main directory (git root)
 ```
 
 ## Backups ##
-The main linux servers in the lab are backed up daily using rsnapshot.
 
+The linux machines in the lab are backed up daily using rsnapshot.
 
 # Data management plans required for research proposals #
 
@@ -141,6 +140,7 @@ Many agencies now require data management plans. These usually include:
 - costing or resources needed
 
 
+[csv]: http://en.wikipedia.org/wiki/Comma-separated_values
 [git]: http://git-scm.com/
 [gitref]: http://gitref.org/
 [github]: http://github.com/
