@@ -10,15 +10,25 @@ Funding for Undergraduate students
 	Program](<http://mindlinfoundation.org/funding-opportunities/undergraduate-research-rfa/>)
 -   [NOAA Educational Partnership Program Undergraduate
     Scholarship](<http://www.epp.noaa.gov/ssp_undergrad_page.html>)
+-   [Sigma Xi](https://www.sigmaxi.org/programs/grants-in-aid)
 
 Funding for Graduate students
 =============================
 
+## Texas Tech and regional ##
+
 -	[New and Continuing Student
     Fellowships](<http://www.depts.ttu.edu/gradschool/funding/new-current.php>)
 	(Texas Tech)
+-   [TTU Doctoral Completion Fellowships](http://www.depts.ttu.edu/gradschool/funding/DoctoralDissertationCompletionFellowships.php)
+- For travel to domestic meetings (you must give a talk/poster, and the meeting must be held within the U.S.): TTU’s Graduate School - http://www.depts.ttu.edu/gradschool/travel.php
+- WT-AWIS (West Texas Assn. for Women in Science) offers travel grants during the spring semester: http://www.ciser.ttu.edu/wis
+
+## Beyond TTU ##
 -   [American Association of University
     Women](<http://www.aauw.org/what-we-do/educational-funding-and-awards/>)
+-   [American Museum of Natural History](http://rggs.amnh.org/pages/academics_and_research/fellowship_and_grant_opportunities)
+-   [Achievement Awards for College Scientists (ARCS)](http://www.arcsfoundation.org/)
 -   [Chateaubriand
     Fellowship](<http://www.chateaubriand-fellowship.org/>) (10 months
     of study in France for US students)
@@ -28,10 +38,10 @@ Funding for Graduate students
 -   [DoE Office of Science Graduate Student Research
     Program](<http://science.energy.gov/wdts/scgsr/>)
 -   [EPA STAR](<http://epa.gov/ncer/fellow/>)
+-   [Explorer's Club Student Grants](http://www.explorers.org)
 -   [Ford
     Foundation ](<http://sites.nationalacademies.org/PGA/FordFellowships/index.htm>)
--   [Fulbright 
-	Fellowship](<http://www.fulbright.org.uk/fulbright-awards/exchanges-to-the-usa/postgraduates>)
+-   [Fulbright Fellowship](<http://www.fulbright.org.uk/fulbright-awards/exchanges-to-the-usa/postgraduates>)
     (one year of funding in the US for UK students)
 -   [Fannie and John Hertz
     Foundation](<http://www.hertzfoundation.org/>) (5 year graduate
@@ -46,3 +56,4 @@ Funding for Graduate students
     Grants](<http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5234>)
 -   [NSF Graduate Research Fellowship
     Program](<http://www.nsfgrfp.org/>)
+-   [Sigma Xi](https://www.sigmaxi.org/programs/grants-in-aid)
