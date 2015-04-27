@@ -46,6 +46,7 @@ Funding for Graduate students
 -   [Fannie and John Hertz
     Foundation](<http://www.hertzfoundation.org/>) (5 year graduate
     fellowships)
+-   [Garden Club of America Scholarships](<https://www.gcamerica.org/scholarships>)
 -   [Howard Hughes Medical
     Institute](<http://www.hhmi.org/programs/science-education-research-training>)
 -   [NASA Graduate Student Researchers
