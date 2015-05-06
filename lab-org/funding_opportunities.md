@@ -26,35 +26,36 @@ Funding for Graduate students
 
 ## Beyond TTU ##
 -   [American Association of University
-    Women](<http://www.aauw.org/what-we-do/educational-funding-and-awards/>)
+    Women](http://www.aauw.org/what-we-do/educational-funding-and-awards/)
 -   [American Museum of Natural History](http://rggs.amnh.org/pages/academics_and_research/fellowship_and_grant_opportunities)
 -   [Achievement Awards for College Scientists (ARCS)](http://www.arcsfoundation.org/)
 -   [Chateaubriand
-    Fellowship](<http://www.chateaubriand-fellowship.org/>) (10 months
+    Fellowship](http://www.chateaubriand-fellowship.org/) (10 months
     of study in France for US students)
--   [DoD SMART Scholarship](<http://smart.asee.org/>)
+-   [DoD SMART Scholarship](http://smart.asee.org/)
 -   [DoE Computational Science Graduate
-    Fellowship](<http://www.krellinst.org/csgf/>)
+    Fellowship](http://www.krellinst.org/csgf/)
 -   [DoE Office of Science Graduate Student Research
-    Program](<http://science.energy.gov/wdts/scgsr/>)
--   [EPA STAR](<http://epa.gov/ncer/fellow/>)
+    Program](http://science.energy.gov/wdts/scgsr/)
+-   [EPA STAR](<http://epa.gov/ncer/fellow/)
 -   [Explorer's Club Student Grants](http://www.explorers.org)
 -   [Ford
-    Foundation ](<http://sites.nationalacademies.org/PGA/FordFellowships/index.htm>)
--   [Fulbright Fellowship](<http://www.fulbright.org.uk/fulbright-awards/exchanges-to-the-usa/postgraduates>)
+    Foundation ](http://sites.nationalacademies.org/PGA/FordFellowships/index.htm)
+-   [Fulbright Fellowship](http://www.fulbright.org.uk/fulbright-awards/exchanges-to-the-usa/postgraduates)
     (one year of funding in the US for UK students)
 -   [Fannie and John Hertz
-    Foundation](<http://www.hertzfoundation.org/>) (5 year graduate
+    Foundation](http://www.hertzfoundation.org/) (5 year graduate
     fellowships)
--   [Garden Club of America Scholarships](<https://www.gcamerica.org/scholarships>)
+-   [Garden Club of America Scholarships](https://www.gcamerica.org/scholarships)
 -   [Howard Hughes Medical
-    Institute](<http://www.hhmi.org/programs/science-education-research-training>)
+    Institute](http://www.hhmi.org/programs/science-education-research-training)
+-   [Joint Fire Sciences Graduate Student Innovation Awards](http://www.firescience.gov/JFSP_funding_announcements.cfm)
 -   [NASA Graduate Student Researchers
-    Program](<https://fellowships.nasaprs.com/gsrp/nav/>)
+    Program](https://fellowships.nasaprs.com/gsrp/nav/)
 -   [National Defense Science and Engineering Graduate
     Fellowship](<http://ndseg.asee.org/>)
 -   [NSF Doctoral Dissertation Improvement
-    Grants](<http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5234>)
+    Grants](http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5234)
 -   [NSF Graduate Research Fellowship
-    Program](<http://www.nsfgrfp.org/>)
+    Program](<http://www.nsfgrfp.org/)
 -   [Sigma Xi](https://www.sigmaxi.org/programs/grants-in-aid)
