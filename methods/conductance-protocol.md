@@ -12,7 +12,7 @@ Overview and materials
 
 ### Overview ###
 
-"Conductance" is a property of a conductor, in our case, the xylem of a stem segment.  We are usually interested in "Conductivity," K, which is the conducting property of a material (eg the xylem tissue of a particular tree species).  We most often report sapwood specific conductivity, K_s, which is the conductance of a stem segment X the length of the segment / the sapwood area of the segment.  
+"Conductance" is a property of a conductor, in our case, the xylem of a stem segment. We are usually interested in "Conductivity," K, which is the conducting property of a material (eg the xylem tissue of a particular tree species).  We most often report sapwood specific conductivity, K_s, which is the conductance of a stem segment X the length of the segment / the sapwood area of the segment.  
 
 Conductance influences rate of water flow through a stem segment:
 
@@ -73,24 +73,30 @@ Native conductance and flushing
 In order to produce a vulnerability curve, we must measure conductances under a range of water potentials.  We can create these water pontetials by spinning a stem in a centrifuge, or we can allow natural drought condtions to create them.  If we harvest a stem predawn and under water, and if we have recent midday and predawn water potentials measured on that plant, then we can create a "native conductance" point on a vulnerability curve.
 
 ### Flushing ###
+
+There are two flushing methods, pressure head and vacuum infiltration.
+
+#### Pressure head method, deprecated ####
 To remove all embolism, we flush the stem under a pressure head of about 75-100 KPa for 45 min (for oaks). For gymnosperms, we have been experimenting with vacuum incubation followed by low pressure flushing (see [Hietz et al 2008][Hietz-2008] and [Espino and Schenk 2011][Espino-2011].
 
-
-
 We use a "captive air tank" to apply the water pressure. The tank contains a rubber bladder which we fill with our KCl solution. A Schrader valve allows us to attach a regulated air source (we use a nitrogen tank with a regulator turned down to the correct pressure)
+
+#### Vacuum infiltration, preferred #####
+
+24 hours of stem submerged in KCl solution in vacuum carboy with solution under continuous vacuum.
 
 Cleaning and preparing conductance measurement and flushing system
 ------------------------------------------------------------------
 
 ### Cleaning ###
 
-Clean every TODO:X days with 10% bleach solution (TODO: X per X).  Never allow bleach solution to touch the filter.
+Clean every 10 days with 10% bleach solution. Never allow bleach solution to touch the filter!
 
-Flush system with distilled water before adding bleach solution because bleach contacting KCl will cause a precipitate
+Flush system with distilled water before adding bleach solution because bleach contacting KCl will cause a precipitate. Flush with distilled water after bleach as well.
 
 ### Solution and prep. ###
 
-If possible, only degassed KCl solution should touch the stem.  This is especially important for flushing and measurement (both times when solution is pushed through the stem.
+If possible, only degassed KCl solution should touch the stem. This is especially important for flushing and measurement (both times when solution is pushed through the stem.
 
 #### 20 mmol KCL ####
 
@@ -98,7 +104,7 @@ Use 1.4915g KCL per Liter
 			
 #### Degassing: ####
 
-Mix the KCl in a vacuum-ready carboy. Use a stir rod and magnetic stir plate  to agitate the mxture while vacuum is applied. Pull vacuum to approx -22"Hg and then disconnect and shut down vacuum pump (allow pump to run for 2 minutes pulling air and no vacuum to cool down before switching off). 20 minutes of stirring under vacuum should be sufficient to degas.
+Mix the KCl in a vacuum-ready carboy. Use a stir rod and magnetic stir plate  to agitate the mixture while vacuum is applied. Pull vacuum to approx -22"Hg and then disconnect and shut down vacuum pump (allow pump to run for 2 minutes pulling air and no vacuum to cool down before switching off). 20 minutes of stirring under vacuum should be sufficient to degas.
 
 Anytime the carboy is opened, pull vacuum and degas the solution
 
@@ -187,8 +193,8 @@ Centrifuge method of inducing embolism/cavitation
 
 We can spin a stem in a custom-made centrifuge rotor (for a Sorvall centrifuge) in order to create tension in the xylem. For the Butler lab centrifuge use rotor code #5 for an SS34 rotor. The stem ends must be kept under water. L-shaped plastic wells filled with degassed KCL allow the solution to move up to cover the stem end as we spin.  It is impossible to avoid some air exposure, so we use small make-up sponges in the wells to keep the end moist during the time while the stems are being placed in the rotor.
 
-TIP: Do not spin with grommets on stems!!
-TIP: Double nut the metal plates to hold stems in place.
+TIP: Do not spin with grommets on stems!
+TIP: Double nut the metal plates to hold stems in place. Torque nuts down tightly!  The metal plates will bend very slightly and this is ok.
 TIP: Slowly increase to target MPa as to keep stems in place.
 
 To calculate the tension in Pa produced by spinning at a given RPM, convert RPM to radians per minutes squared, multiply by the radius of the spinning arm (1/2 the distance from water surface to water surface in the wells when spinning) squared then multiply by the density of water and divide by 2. So to get the value in MPa:
@@ -198,6 +204,8 @@ mpa = -0.000001  * ( (RPM*2*pi / 60)^2 * r^2 * waterdensity) / 2 )
 This is the greatest tension created at the tips of the stem. See [[file:hydro.R][hydro.R]]
 
 Spin the stem for 5-6 minutes at the final RPM. This means you will need to set the centrifuge spin time for 7-8 minutes to allow time for the machine to reach the final speed.
+
+[TODO: note, Jacobsen and Pratt use 5-6 minutes. Some Sperry papers use 15 minutes. Check]
 
 ### "Fatigue correction" ###
 
