@@ -5,7 +5,7 @@ Authors: Dylan Schwilk, Tailor Brown, Josh Willms.
 
 Rough first draft. This needs checking against our written notes and much missing information filled in!
 
-See also Dr. Anna Jacobsen's webpage of research methods: http://www.csub.edu/~ajacobsen/Research_Methods.htm.  We learned our hydraulics from Dr. Davis, Dr. Jacobsen and Dr. Pratt largely.
+See also Dr. Anna Jacobsen's webpage of research methods: http://www.csub.edu/~ajacobsen/Research_Methods.htm. We learned our hydraulics from Dr. Davis, Dr. Jacobsen and Dr. Pratt largely.
 
 Overview and materials
 ----------------------
@@ -197,9 +197,13 @@ mpa = -0.000001  * ( (RPM*2*pi / 60)^2 * r^2 * waterdensity) / 2 )
 
 This is the greatest tension created at the tips of the stem. See [[file:hydro.R][hydro.R]]
 
+Spin the stem for 5-6 minutes at the final RPM. This means you will need to set the centrifuge spin time for 7-8 minutes to allow time for the machine to reach the final speed.
+
 ### "Fatigue correction" ###
 
-Some species such as oaks, will show conductance loss at high water potentials --- higher than ever observed in nature. This implies that flushing fills some vessels that are never filled in a living plant. These have been termed "fatigued" vessels. If we calculate percent loss conductivity based on a maximum conductivity measured just after flushing, then we would show losses that are not real. To correct for this, we can spin at a very gentle tension (say -0.25 MPa), then count the subsequent conductance measurement as the "fatigue corrected" maximum conductance. 
+Some large-veseled species such as the ring-porous oaks, will show conductance loss at high water potentials --- higher than ever observed in nature. This implies that flushing fills some vessels that are never filled in a living plant. These have been termed "fatigued" vessels. If we calculate percent loss conductivity based on a maximum conductivity measured just after flushing, then we would show losses that are not real. To correct for this, we can spin at a very gentle tension (say -0.25 MPa), then count the subsequent conductance measurement as the "fatigue corrected" maximum conductance.
+
+We currently always use a -0.25 MPa fatigue correction spin for all angiosperms
 
 Alternatively, we can avoid flushing all together and collect stems under very hydrated natural conditions.
 
@@ -213,7 +217,7 @@ Alternatively, we can avoid flushing all together and collect stems under very h
    Measure conductance (see above) and record
 4. [ ] IF FLUSHING:
    Flush stem (see above)
-5. [ ] Spin stem at next RPM point and remeasure.  Do this until measure flow drops to near background
+5. [ ] Spin stem at next RPM point and remeasure.  Do this until measure flow drops to near background.
 
 [TODO]
 
