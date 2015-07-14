@@ -59,3 +59,4 @@ Funding for Graduate students
 -   [NSF Graduate Research Fellowship
     Program](<http://www.nsfgrfp.org/)
 -   [Sigma Xi](https://www.sigmaxi.org/programs/grants-in-aid)
+-   [Society of Herbarium Curators] (http://www.herbariumcurators.org/awards/)
