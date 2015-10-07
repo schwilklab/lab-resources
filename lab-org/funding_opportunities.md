@@ -17,6 +17,8 @@ Funding for Graduate students
 
 ## Texas Tech and regional ##
 
+-   [TTUAB research grants](http://www.biol.ttu.edu/ttuab/Guidelines.aspx)
+    Apply for these each year, these can fund summer travel and equipment.
 -	[New and Continuing Student
     Fellowships](<http://www.depts.ttu.edu/gradschool/funding/new-current.php>)
 	(Texas Tech)
