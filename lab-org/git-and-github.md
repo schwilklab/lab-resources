@@ -112,7 +112,8 @@ git status # we want to see "working directory clean"
 # ok, so let's push
 git push # THIS WONT WORK THE FIRST TIME
 
-# you'll get an error because git does not know where to push this, not what remote, no what branch on that remote. But git will tell you what to do:
+# you'll get an error because git does not know where to push this, not what
+# remote, no what branch on that remote. But git will tell you what to do:
 
 git push --set-upstream origin schwilk-testbranch
 # next time, a simple "git push" will work
