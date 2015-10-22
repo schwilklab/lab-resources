@@ -2,6 +2,9 @@
 title: 'Leaf protein extraction protocol'
 authors: Letitia Plata, Lizz Waring, Dylan W. Schwilk
 
+Based of the methods published in 
+M.M. Bradford. A rapid and sensitive method for the quantification of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem, 72 (1976), pp. 248–254
+
 ---
 
 
@@ -22,15 +25,26 @@ Collect mature, sun leaves into ziploc bags and cover immediately with ice. Labe
 
 ## Equipment needed ##
 
-- centrifuge (type?)
+- microcentrifuge (any microcentrifuge capable of 14,000 rpm, have an Eppendorf 5417C centrifuge in Holaday lab)
 - spectrophotometer
-- glassware ?
-- pipettes ?
+- Small beakers (<=200 ml) for storing solutions
+- Graduated cylinders for making dye solution
+- pippetter(s) capable of 10 ul, 50 ul, 1 ml, and 2.5 ml
+- microcentrifuge tubes (use 1.5 mL eppendorf tubes)
 
 Reagents:
 
+An extraction buffer with a pH of 7.5. Depending on the toughness of the leaves, this can be anything from HEPES to a Borate solution. This is what we have used in the past for oaks.
 
-TODO
+500 mM HEPES
+150 mM KCl
+10 mM EDTA
+10 mM MgCl2
+0.5 % (v/v) Triton-X
+10 mM beta-mercaptoethanol
+1% (w/v) PVPP
+
+A batch solution of all these reagents, EXCEPT the mercaptoethanol and PVPP, can be stored at 4 C for years. The mercaptoethanol must be added in day of. Add the PVPP directly to sample when grinding (see step 4 of protein extraction)
 
 ## Protocol ##
 
@@ -40,10 +54,17 @@ TODO
 
 ### prepare the buffer solution ###
 
-1. in a glass beaker, add 50 mL of solution (biorad?) 
-2. in the hood, add 11.7 microliters of betamercaptoethanol to the buffer solution in the glass beaker.
+1. You will need ~1.5 mL of extraction buffer per sample being analyzed.  
+2. Measure out whatever volume extraction buffer is needed that day
+3. Add in 10 mM beta-mercaptoethanol (Do this in a hood)
 3. place the buffer solution on ice
 
+### prepare the dye solution ###
+
+1. Need Bio-Rad Protein Assay Dye Regaent Concetration, 450 mL bottle (Catalog# 500-0006, order directly from bio-rad)
+2. Dilute the dye in a 5:1 ratio (i.e. for 100 mL of dye, take 20 mL concentrate soln and add 80 mL RO water)
+3. Diluted dye can be stored at 4 C for ~3 months.  Can make large bottle ahead of time if you have many samples to.
+4. Make a new standard curve with each new bottle of protein dye.
 
 ### protein extraction ###
 
@@ -53,8 +74,9 @@ TODO
 4. add a tiny amount (tip of spatula) of PVPP to sample.
 5. mix sample and liquid together and then pour in microcentrifuge tube.
 6. label the sample 
-7. prepare the centrifuge for the sample. the centrifuge must be balanced, do not run one tube in there by itself.
-8. centrifuge the sample for 10 minutes. SPEED?
+7. prepare the centrifuge for the sample.
+8. the centrifuge must be balanced, do not run one tube in there by itself. If have an odd number, add a black tube with H2O
+8. centrifuge the sample for 10 minutes at 14,000 RPM
 9. while the sample is being centrifuged prepare the spectrophotometer for the samples.
 10. to get a standard, add 50 microliters of buffer solution in a UV cuvette and 2.5mL of biorad.
 11. pull the supernatant out of the tubes from cetrifuge and pour into a test tube.
