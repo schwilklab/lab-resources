@@ -5,6 +5,10 @@ authors: Letitia Plata, Lizz Waring, Dylan W. Schwilk
 Based of the methods published in 
 M.M. Bradford. A rapid and sensitive method for the quantification of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem, 72 (1976), pp. 248–254
 
+Also see: Holaday, A. Scott, Dylan W. Schwilk, Elizabeth F. Waring, Hasitha Guvvala, Chelsea M. Griffin, and O. Milo Lewis.
+"Plasticity of nitrogen allocation in the leaves of the invasive wetland grass, Phalaris arundinacea and co-occurring Carex
+species determines the photosynthetic sensitivity to nitrogen availability." Journal of plant physiology 177 (2015): 20-29.
+
 ---
 
 
@@ -65,6 +69,10 @@ A batch solution of all these reagents, EXCEPT the mercaptoethanol and PVPP, can
 2. Dilute the dye in a 5:1 ratio (i.e. for 100 mL of dye, take 20 mL concentrate soln and add 80 mL RO water)
 3. Diluted dye can be stored at 4 C for ~3 months.  Can make large bottle ahead of time if you have many samples to.
 4. Make a new standard curve with each new bottle of protein dye.
+5. 
+
+# Data that needs to be recorded.  Example sheets in file cabinet in Schwilk lab
+1
 
 ### protein extraction ###
 
@@ -84,6 +92,6 @@ A batch solution of all these reagents, EXCEPT the mercaptoethanol and PVPP, can
 13. to prepare the sample for the photospectrometer add 40 microliters of buffer solution, 10 microliter of supernatant, and 2.5 mL of biorad dye to UV cuvette.
 14. the dye must sit for 5 minutes
 15. once the sample is ready, we are measuring at a wavelength of 595
-16. record all measurements.  ?? details?
+16. record all measurements.  
 17. using water and a pippette measure the amount of supernatant that was in each test tube for each sample.
 18. clean up all mess and dispose of liquids correctly.
