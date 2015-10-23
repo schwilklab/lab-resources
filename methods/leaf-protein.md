@@ -72,7 +72,14 @@ A batch solution of all these reagents, EXCEPT the mercaptoethanol and PVPP, can
 5. 
 
 # Data that needs to be recorded.  Example sheets in file cabinet in Schwilk lab
-1
+1. Date of assay
+2. species code or species name
+3. tag #
+4. weight of sample you are assaying
+5. Absorbance at 595 nm (Do 3 times)
+6. total mL of supernatent
+7. total area of leaf punches (for broad leafed plants only!)
+8. any other notes you have
 
 ### protein extraction ###
 
