@@ -40,8 +40,7 @@ In the event of a spill or leak involving bleach, persons not wearing protective
 
 ## PERSONAL PROTECTIVE EQUIPMENT ##
 
-Workers should use appropriate personal protective clothing and equipment that must be carefully selected, used, and maintained to be effective in preventing skin contact with bleach. The selection of the appropriate personal protective equipment (PPE) (e.g., gloves, sleeves, lab coats) should be based on the extent of the worker's potential exposure to hydrogen peroxide. 
-Safety showers and eye wash stations are located close to operations that involve bleach, in the hallway. 
+Workers should use appropriate personal protective clothing and equipment that must be carefully selected, used, and maintained to be effective in preventing skin contact with bleach. The selection of the appropriate personal protective equipment (PPE) (e.g., gloves, sleeves, lab coats) should be based on the extent of the worker's potential exposure to hydrogen peroxide. Safety showers and eye wash stations are located close to operations that involve bleach, in the hallway.
 
 Splash-proof chemical safety goggles should be worn during any operation in which a solvent, caustic, or other toxic substance may be splashed into the eyes.
 
@@ -70,7 +69,7 @@ Bertholite, molecular chlorine
 
 ### Appearance and odor ###
 
-Chlorine is a greenish-yellow gas with a characteristic pungent odor. It condenses to an amber liquid at approximately -34 degrees C (-29.2 degrees F) or at high pressures. Odor thresholds ranging from 0.08 to part per million (ppm) parts of air have been reported. Prolonged exposures may result in olfactory fatigue. 
+Chlorine is a greenish-yellow gas with a characteristic pungent odor. It condenses to an amber liquid at approximately -34 degrees C (-29.2 degrees F) or at high pressures. Odor thresholds ranging from 0.08 to part per million (ppm) parts of air have been reported. Prolonged exposures may result in olfactory fatigue.
 
 ## CHEMICAL AND PHYSICAL PROPERTIES
 

@@ -9,8 +9,7 @@ Schwilk Lab. Room 206 Biology
 - Office: 806-834-0902
 
 ### After Hours: ###
-- Biology Safety Officer – Dr. Boyd Butler
-- Office: 806-834-5897
+Call EHS after hours number. You can additionally contact Dr. Schwilk on his cell.
 
 ### Environmental Health and Safety ###
 - Working Hours: 742-3876

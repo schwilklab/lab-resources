@@ -1,2 +1,4 @@
+# ignore output formats
 *.nfs*
 *.html
+*.pdf

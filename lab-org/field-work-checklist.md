@@ -7,7 +7,7 @@ For all trips
 - pens and sharpies
 - GPSs - check batteries and load waypoints
 - extra batteries (AA for GPS and decagon, AAA for some headlamps).
-- radios and chargers
+- VHF radios and chargers
 - lab field laptop if needed
 - field notebooks --- rite-n-rain
 - plastic bags, ziplocks seed collecting bags
@@ -23,6 +23,8 @@ For climate sensors and soil moisture
 
 - lab laptop with iButton software
 - iButton cables and extra sensors
+- electrical repair tools and connectors: wire stripper, electrical tape, gel connectors
+- zip ties
 - GPSs - check batteries and waypoints
 - extra batteries
 - sensor list (printed)
@@ -35,6 +37,7 @@ For climate sensors and soil moisture
 For tree tagging
 ----------------
 
+- diameter tapes
 - tree tags (check numbers, ranges, type are all correct). Do you have enough?
 - nails 8d 2.5 inch work well
 - hammer
@@ -74,7 +77,7 @@ Camping and safety gear
 -----------------------
 
 - food
-- water containers
+- large water containers fill with RO water
 - coolers - ice
 - snake chaps (optional)
 - stove and propane fuel, matches

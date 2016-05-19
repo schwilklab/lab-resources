@@ -50,3 +50,6 @@ net.ipv6.conf.lo.disable_ipv6 = 1
 
 #### Autonegotiation MUST be used on the new ports, manual setting of any speed fails ####
 
+### "Network registration" ###
+
+TTU is now requiring that ethernet-connected devices have their MAC addresses "registered" with the university. We have done this for all current lab machines. If/when this will be enforced is unclear.  We may be able to get an exemption for our meeting room.
