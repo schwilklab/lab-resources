@@ -1,7 +1,7 @@
 Schwilk Lab Protocols
 =====================
 
-Repository for field and lab protocols. Work in progress.
+Repository for field and lab protocols.
 
 File organization
 -----------------
@@ -10,11 +10,12 @@ File organization
 
 This folder folder for information on lab business, scholarships and funding, data management, etc.
 
-- [lab-business](lab-org/lab-business.md): For information on mailing packages, departmental contacts, orderings supplies
 - [computers-network](lab-org/computers-network.md): Instructions and description of our lab computer network
 - [data-management](lab-org/data-management.md): Our current lab best practices for managing lab data
-- [funding-opportunities](lab-org/funding_opportunities.md): List of graduate fellowships and scholarships
 - [field-work-checklist](lab-org/field-work-checklist.md): Use this checklist when packing for the field!
+- [funding-opportunities](lab-org/funding_opportunities.md): List of graduate fellowships and scholarships
+- [Git and GitHub](labo-org/git-and-gitbhub.md): Our lab guide to using git and GitHub for collaboration.
+- [lab-business](lab-org/lab-business.md): For information on mailing packages, departmental contacts, orderings supplies
 
 ## methods ##
 
@@ -46,4 +47,4 @@ Although it is ok to commit to master, a good workflow on a shared repository is
 Important Note:
 ---------------
 
-The plan is to make this repository public.  Because it is very difficult to actually delete anything from a git repository (one can always roll back or inspect a previous commit in the history, it is important to never commit any private information we don't want shared.  I don't think there is much chance of that, but I just wanted to warn everyone.
+The plan is to make this repository public. Because it is very difficult to actually delete anything from a git repository, it is important to never commit any private information we don't want shared. I don't think there is much chance of that, but I just wanted to warn everyone.
