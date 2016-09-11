@@ -13,20 +13,6 @@ All of our work involves data. With multiple simultaneous projects ranging in si
 4. Keeping a record of all decisions regarding our data, all transformations, all reshaping, all corrections (scripts, version control)
 5. Visualizing and analyzing our data (R scripts)
 
-# File formats and organization #
-
-## File formats ##
-
-Plain text, such as [comma separated values format (csv)][csv], is simple and portable. It is not the most powerful format, but it is what we most commonly use. It is easy to enter data using a spreadsheet program (eg LibreOffice Calc or Microsoft Excel). Then save the data as ".csv" and choose an csv format options carefully. Do not store any formulas or calculations (the csv file just stores plain text representing either numbers (eg "3.456") or character strings/factor levels (eg "HighNitrogen").  Each column should include only one type of information.
-
-### Some things to watch out for with csv files ###
-
-- Name your columns with valid R names. Avoid spaces!  In other words, "mass (g)" is a bad column header, but "mass.g" is fine.
-- Be careful of any automatic conversion of strings to underlying date/time representation that your spreadsheet program may do without asking you. This could result in loss of information and changing formats upon resaving as plain text.
-- Watch character encoding (always use utf-8)
-- If you use Microsoft Excel on Mac, be careful of a microsoft bug in which excel will always save csv files using windows style line endings
-- If you use commas for field delimiters, then be careful about using commas in any actual data. At the least, you will need to enclose such fields in quotes. Better yet, avoid commas in the data or use tabs for field delimiters.
-
 ## Directory structures ##
 
 - Use simple informative names
@@ -42,41 +28,79 @@ Main directory (git root)
   data
     data_file1.csv
     data_file1-metadata.csv
+  ms
+    main-ms.md (or main-ms.tex, or even main-ms.docx)
+  results (dir contents not in version control)
+    .gitignore (with two lines, see below)
+    figure1.pdf
+    figure2.pdf
   scripts
     data-read-clean.R
     stats.R
     figures.R
-  figs (dir contents not in version control)
-   .gitignore (that excludes all but this file)
-  ms
-   main-ms.md (or main-ms.tex, or even main-ms.docx)
 ```
 
-# Quality assurance #
+### `root` 
+
+This is the main directory and the root of the git repository if in version control. This folder will be named for the project (eg `sky-island-climate`) and should have a README describing the project and explaining where there data and code are. This folder will also ahve any global `.gitignore` file (see version control, below)
+
+### `data` ###
+
+Store data and file specific metadata here. Use comma-separated-values (csv) files for data. Store data in a tidy format when possible with one row per observationa nd one column per measured or grouping variable. Store data with different types of observations in different files.  For example:
+
+- trees.csv : one row of data per each tree sampled. Columns: `tree_id`, `DBH`, `species_code`
+- species.csv : one row of data per species in the data set. Columns: `species_code`, genus, specific_epithet, family.
+
+### `ms` ###
+
+Keep your manuscript or thesis text here.  Ideally in a plain text format such as markdown, org mode, LaTeX, etc
+
+### `results` ###
+
+This directory is only for files that are created automatically by code. Nothing in this directory is in version control. TO ensure that a fresh clone of the git repo will include this directory although it is empty, place a `.gitignore` file in it with the following two lines:
+
+
+```
+*
+!.gitignore
+```
+
+This tells git to ignore all files in this directory except for the .gitignore file itself
+
+
+### `scripts` ###
+
+Keep your anlayses code here (usually this will be R scripts)
+
+
+# Storing and documenting data #
+
+## File formats ##
+
+Plain text, such as [comma separated values format (csv)][csv], is simple and portable. It is not the most powerful format, but it is what we most commonly use. It is easy to enter data using a spreadsheet program (eg LibreOffice Calc or Microsoft Excel). Then save the data as ".csv" and choose an csv format options carefully. Do not store any formulas or calculations (the csv file just stores plain text representing either numbers (eg "3.456") or character strings/factor levels (eg "HighNitrogen").  Each column should include only one type of information.
+
+### Some things to watch out for with csv files ###
+
+- Name your columns with valid R names. Avoid spaces!  In other words, "mass (g)" is a bad column header, but "mass_g" is fine.
+- Be careful of any automatic conversion of strings to underlying date/time representation that your spreadsheet program may do without asking you. This could result in loss of information and changing formats upon resaving as plain text.
+- Watch character encoding (always use utf-8)
+- If you use Microsoft Excel on Mac, be careful of a microsoft bug in which excel will always save csv files using windows style line endings
+- If you use commas for field delimiters, then be careful about using commas in any actual data. At the least, you will need to enclose such fields in quotes. Better yet, avoid commas in the data or use tabs for field delimiters.
+
+
+## Quality assurance ##
 
 Direct digital data entry is the best for quality assurance, because checks can be built in.  For example, if one is entering tree DBH directly on a tablet computer in the field, it is possible to have the data entry system prohibit negative numbers, numbers over some maximum diameter, etc. That said, we most commonly take data in field notebooks and enter them onto the computer that night or a few days later. It is very important that data entry happens soon after data collection, because real quality assurance can't occur until the data are in digital form.
 
 In the Schwilk lab, quality assurance takes the form of R scripts that conduct sanity checks:  sample size matches the study plan, no unexpected, missing data, no impossible numbers (eg negative leaf length), no extreme (impossible) outliers.
 
-# Scripts #
 
-The main tools we use for data analysis are [R][R] and [Python][Python]. We also use shell scripts ([Bash][bash]) to glue various other pieces of code and existing software together. I try to help my students to learn R.
-
-## Some suggestions for code organization ##
-
-Have a small number of R scripts that are well commented (with a good description at the top of the file).
-
-It is probably best to have at least separate files for 1) data reading, cleaning, reshaping; 2) the main analyses and the exploratory figures; 3) a script to create the well formatted tables and figures for the manuscript(s).
-
-See examples in [our git repositories][schwilklab]
-
-
-# Metadata #
+## Metadata ##
 
 Metadata means simply data about data. Our data files (such as a table stored as a [csv file][csv]) do not contain enough information alone for a user to reproduce the work or understand the results. We therefore require additional information stored alongside our data.
 Documenting data (= metadata) occurs at at least two levels.
 
-## At the project level ##
+### At the project level ###
 
 We need to record five pieces of information:
 
@@ -97,7 +121,7 @@ In the Schwilk Lab, we store this high level information resides in a README fil
 
 We are still working on standardizing this, however. Take a look at an example in the [sky island traits repository][traits-distro].
 
-## At the level of the data files ##
+### At the level of the data files ###
 
 These metadata describe the variables and units recorded in each data file. This is already well standardized in lab practice. We store data in CSV (comma separated values) files. These data files have column headings with short names that are valid R object names. Therefore, we need to store notes and explanations of each column separately. Each data file has a corresponding metadata file which has the same basename with a "-metadata.csv" ending. For example, if the data file is "sensor-soil.csv", then the metadata file in the same directory is "sensor-soil-metadata.csv"
 
@@ -124,16 +148,32 @@ Then we should have a file "trees-metadata.csv":
 | spcode   | string  |       | USDA plant code (See plants.usda.gov)      |
 | DBH      | numeric | cm    | Tree diameter at breast height (1.37m)     |
 
+# Code #
+
+The main tools we use for data analysis are [R][R] and [Python][Python]. We also use shell scripts ([Bash][bash]) to glue various other pieces of code and existing software together. I try to help my students to learn R.
+
+## R and working directory ##
+
+It is best to avoid any explicit calls to set the working directory in your R code (avoid `setwd()`). Therefore, you must standardize on an assumed working directory.  In our projects, the scripts are all placed in a `scripts` directory and the code in these scripts assumes that this is the  working directory.  IN other words, to refer to a data file in the data directory, use relative paths: `"../data/some-data-file.csv"`.  This way, scripts will run from the command line in the directory and one can enforce this locally in your editing environment: eg use a project file (.Rproj for RStudio users). Please don't put the local machine and user specific project fiules into version control (see Version Control, below).
+
+## Some suggestions for code organization ##
+
+Have a small number of R scripts that are well commented (with a good description at the top of the file).
+
+It is probably best to have at least separate files for 1) data reading, cleaning, reshaping; 2) the main analyses and the exploratory figures; 3) a script to create the well formatted tables and figures for the manuscript(s).
+
+See examples in [our git repositories][schwilklab]
 
 
-# Version control and backups
+# Version control #
 
 ## Version control ##
 Versioning data and code is very important.
 
-We use [git][git] for version control in the lab. See the [git reference][gitref] for information. We use a central repository workflow and our central repositories are all on [GitHub][github]
+We use [git][git] for version control in the lab. For an outline of our git and [GitHub][github] workflow see [git and Github instructions][./git-and-github.md].
 
-## Backups ##
+
+# Backups #
 
 The linux machines in the lab are backed up daily using rsnapshot.
 

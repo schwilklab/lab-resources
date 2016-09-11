@@ -19,7 +19,7 @@ This folder folder for information on lab business, scholarships and funding, da
 
 
 - [Git and GitHub](data-code/git-and-github.md): Our lab guide to using git and GitHub for collaboration.
-- [data-management](data-code/data-management.md): Our current lab best practices for managing lab data
+- [data-management](data-code/data-management.md): Our current lab best practices for managing lab data, setting up a project, organizing code and keeping the whole thing in version control.
 
 ## methods ##
 
