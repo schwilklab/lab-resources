@@ -170,7 +170,7 @@ See examples in [our git repositories][schwilklab]
 ## Version control ##
 Versioning data and code is very important.
 
-We use [git][git] for version control in the lab. For an outline of our git and [GitHub][github] workflow see [git and Github instructions][./git-and-github.md].
+We use [git][git] for version control in the lab. For an outline of our git and [GitHub][github] workflow see [git and Github instructions](./git-and-github.md).
 
 
 # Backups #
