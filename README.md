@@ -11,11 +11,15 @@ File organization
 This folder folder for information on lab business, scholarships and funding, data management, etc.
 
 - [computers-network](lab-org/computers-network.md): Instructions and description of our lab computer network
-- [data-management](lab-org/data-management.md): Our current lab best practices for managing lab data
 - [field-work-checklist](lab-org/field-work-checklist.md): Use this checklist when packing for the field!
 - [funding-opportunities](lab-org/funding_opportunities.md): List of graduate fellowships and scholarships
-- [Git and GitHub](labo-org/git-and-gitbhub.md): Our lab guide to using git and GitHub for collaboration.
 - [lab-business](lab-org/lab-business.md): For information on mailing packages, departmental contacts, orderings supplies
+
+### data management, code and version control
+
+
+- [Git and GitHub](data-code/git-and-github.md): Our lab guide to using git and GitHub for collaboration.
+- [data-management](data-code/data-management.md): Our current lab best practices for managing lab data
 
 ## methods ##
 
