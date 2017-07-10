@@ -1,3 +1,55 @@
+Training requirements
+
+
+*** if you have the funding to get there, it is HIGHLY recommended you attend a free training session at LiCor headquarters in Lincoln, NE.  If you are planning on attending one of these session, please contact Jennifer Smith to arrange getting a Li6400XT for you take with you**** 
+
+
+1) Contact Jennifer Smith (jennifer.smith@ttu.edu) and/or Lizz Waring (elizabeth.waring@ttu.edu) to discuss training.
+
+2) There is a training DVD that all new users must watch that can be checked out of the Schwilk lab.
+
+
+3) prior to training know what questions you want to answer using Licor data, why you want to use the Licor to answer these questions, and your general interests in gas exchange.  This is very important for us to teach you what you need to know to answer the questions you are interested in.  IF YOU DON'T KNOW WHY YOU WANT TO USE LICOR DATA, THINK ABOUT IF YOU REALLY NEED IT.  The Li6400XT is a powerful machine but it is also sensitive and requires quite a bit of finesses to use.  Expect at least 6-8 hrs of training and practice before being able to take it out on your own. 
+
+4) attend a licor training with Jennifer Smith or Lizz Waring
+
+5) sign the user agreement
+
+6) practice using the licor on your own.
+
+7) pass a user test. During this test you will have to demonstrate that you can use the licor on your own and trouble shoot it. If your trainer determines you aren't ready to take the licor out on your own, you can keep practicing in the greenhouse and try again.
+
+Additional training videos:
+
+These are helpful for both new and old Li6400 users.  All videos made by LiCor
+
+Top ten tips for using Li6400XT: [https://www.youtube.com/watch?v=umBb0wOLox0](https://www.youtube.com/watch?v=umBb0wOLox0 "Top ten tips for using Li-6400XT")
+
+
+Controlling humidity and temperature: [https://www.youtube.com/watch?v=usEV7j64pVI](https://www.youtube.com/watch?v=usEV7j64pVI)
+
+
+Prep Checklist
+
+1) is the machine in working order and been checked out with the appropriate person?
+2) do you have CO2 cartridge? Dririte?  Soda lime? If you don't know what these are, refer back to training material?
+3) if you need one, a tripod to hold the IRGA head (highly recommended to keep your arms from getting too tired and to protect the IRGA)
+4) notebook to write down everything you measure and do.  Can also be used to cover screen to prevent sun damage.
+
+If taking Li6400 to the field:
+This video from LiCor is very helpful: [https://www.youtube.com/watch?v=RsvrNN-a13o](https://www.youtube.com/watch?v=RsvrNN-a13o "Preparing your Li400XT for field season")
+
+1) do you have the batteries you need and chargers?  
+2) Do you have back ups of all CO2 cartridges, dririte and soda lime?  
+3) print out the instruction below on how to use and make sure you have the number for licor to call if you need help
+
+If taking Li6400 to the greenhouse
+1) do you have the extension cord and AC pack to use a plug in electrical source?
+2) back up batteries just in case something goes wrong
+
+
+
+
 HOW TO USE THE LICOR 6400XT
 (After connecting all the cables and tubes, batteries replaced, and new CO2 cylinder:)
 
@@ -49,3 +101,27 @@ f)	Ci/Ca ~0.55-0.8 for C3 plants (0.3 to 0.5 for C4 plants) (at night Ci/Ca >1) 
 
 PUT LICOR IN SLEEP MODE IF YOU NEED TO WAIT FOR THE NEXT SET OF MEASUREMENTS OR BATTERIES NEED TO BE REPLACED. (Under UTILITY menu, scroll down to SLEEP MODE and hit “Y”). If you continue your measurements start from instruction 19).
 To SWITCH OFF machine: go to WELCOME MENU and hit “QUIT OPEN/IRGAS OFF) and flip switch.
+
+
+
+
+
+
+
+LICOR STORAGE
+
+All licors and their accessories must be keep in the Schwilk Lab when not in use.  Room 206 in the biology building.  When not in use the licor is to remain in the hard case.  
+
+IF THERE WERE ANY PROBLEMS OR SOMETHING BROKE YOU MUST LET SOMEONE KNOW.  We understand things happen, but if we don't know there is a problem, we can't fix it. If you repeatedly return a licor with an unreported issue, you might not be allowed to use a licor in the future. 
+
+To store the Li6400XT:
+
+1) loosen IRGA chamber to the gaskets aren't compressed
+2) put all parts away in the hard storage case.
+3) return to black shelf in 206
+
+To store batteries
+1) before returning them, make sure batteries are fully charged.  The need to be stored with a charge!!
+2) place each battery on shelf.  And return chargers and cases to white shelf as well.
+
+If you aren't sure where something goes, please ask!
