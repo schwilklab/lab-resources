@@ -4,7 +4,7 @@ Training requirements
 *** if you have the funding to get there, it is HIGHLY recommended you attend a free training session at LiCor headquarters in Lincoln, NE.  If you are planning on attending one of these session, please contact Jennifer Smith to arrange getting a Li6400XT for you take with you**** 
 
 
-1) Contact Jennifer Smith (jennifer.smith@ttu.edu) and/or Lizz Waring (elizabeth.waring@ttu.edu) to discuss training.
+1) Contact Jennifer Smith and/or Lizz Waring to discuss training.
 
 2) There is a training DVD that all new users must watch that can be checked out of the Schwilk lab.
 
