@@ -1,17 +1,23 @@
+Explaination of terminology
+
+Li6400 refers to one or both of the Li6400XT housed in the Schwilk lab.  Full details on their maintaince records is availble here ([https://github.com/schwilklab/protocols/tree/master/maintenance](https://github.com/schwilklab/protocols/tree/master/maintenance))
+
+The licor person refers to the graduate student or postdoc who is in charge of maintaining the licors and facilitating the schedule of use and training.  This person will change with time, if there are any questions on who it is, ask Dr. Schwilk
+
 Training requirements
 
 
-*** if you have the funding to get there, it is HIGHLY recommended you attend a free training session at LiCor headquarters in Lincoln, NE.  If you are planning on attending one of these session, please contact Jennifer Smith to arrange getting a Li6400XT for you take with you**** 
+*** if you have the funding to get there, it is HIGHLY recommended you attend a free training session at LiCor headquarters in Lincoln, NE.  If you are planning on attending one of these session, please contact Dr. Schwilk or the licor person to arrange getting a Li6400XT for you take with you**** 
 
 
-1) Contact Jennifer Smith and/or Lizz Waring to discuss training.
+1) Contact the licor person to discuss training.
 
 2) There is a training DVD that all new users must watch that can be checked out of the Schwilk lab.
 
 
 3) prior to training know what questions you want to answer using Licor data, why you want to use the Licor to answer these questions, and your general interests in gas exchange.  This is very important for us to teach you what you need to know to answer the questions you are interested in.  IF YOU DON'T KNOW WHY YOU WANT TO USE LICOR DATA, THINK ABOUT IF YOU REALLY NEED IT.  The Li6400XT is a powerful machine but it is also sensitive and requires quite a bit of finesses to use.  Expect at least 6-8 hrs of training and practice before being able to take it out on your own. 
 
-4) attend a licor training with Jennifer Smith or Lizz Waring
+4) attend a licor training with the licor person or at LiCor headquarters in NE
 
 5) sign the user agreement
 
