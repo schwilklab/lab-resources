@@ -44,6 +44,7 @@ Funding for Graduate students
 - [National Defense Science and Engineering Graduate Fellowship](<http://ndseg.asee.org/>)
 - [NSF Doctoral Dissertation Improvement Grants](http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5234)
 - [NSF Graduate Research Fellowship Program](<http://www.nsfgrfp.org/)
+- [Prairie Biotic Research Small Grants. Up to $1500] (https://prairiebioticresearch.org/PBRPage.aspx?pg=8)
 - [Sigma Xi](https://www.sigmaxi.org/programs/grants-in-aid)
 - [Society of Herbarium Curators] (http://www.herbariumcurators.org/awards/)
 - [Native Plant Society of Texas. Ann Miller Gonzalez Graduate Research Grants. $2000](http://npsot.org/wp/education/research-grants/)
