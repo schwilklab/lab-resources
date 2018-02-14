@@ -8,19 +8,21 @@ author: Dylan Schwilk
 All of our work involves data. With multiple simultaneous projects ranging in size from a few rows to millions of records, it is important that we are organized. Data management means
 
 1. Recording data in a way that loses no information (format decisions, metadata)
-2. Ensuring that all data is collected and none goes missing (version control, backups)
+2. Ensuring that all data are collected and none goes missing (version control, backups)
 3. Ensuring that we (and others) can understand our data months or years from now (metadata)
 4. Keeping a record of all decisions regarding our data, all transformations, all reshaping, all corrections (scripts, version control)
-5. Visualizing and analyzing our data (R scripts)
+5. Visualizing and analyzing our data (usually R scripts)
 
 ## Directory structures ##
+
+Some recommendations:
 
 - Use simple informative names
 - Use the directory structure itself for organization --- this improves portability.
 - Avoid spaces and some special characters in file names. Be careful about
   capitalization.
 
-The Schwilk lab suggested project layout:
+The project layout that Dylan uses most of the time shown below. I've shown a few example file names but most are not shown.
 
 ```
 Main directory (git root)
@@ -29,8 +31,8 @@ Main directory (git root)
     data_file1.csv
     data_file1-metadata.csv
   ms
-    main-ms.md (or main-ms.tex, or even main-ms.docx)
-  results (dir contents not in version control)
+    main-ms.md (or main-ms.tex, main-ms.docx)
+  results (directory contents not in version control)
     .gitignore (with two lines, see below)
     figure1.pdf
     figure2.pdf
@@ -49,15 +51,15 @@ This is the main directory and the root of the git repository if in version cont
 Store data and file specific metadata here. Use comma-separated-values (csv) files for data. Store data in a tidy format when possible with one row per observationa nd one column per measured or grouping variable. Store data with different types of observations in different files.  For example:
 
 - trees.csv : one row of data per each tree sampled. Columns: `tree_id`, `DBH`, `species_code`
-- species.csv : one row of data per species in the data set. Columns: `species_code`, genus, specific_epithet, family.
+- species.csv : one row of data per species in the data set. Columns: `species_code`, `genus`, `specific_epithet`, `family`.
 
 ### `ms` ###
 
-Keep your manuscript or thesis text here.  Ideally in a plain text format such as markdown, org mode, LaTeX, etc
+Keep your manuscript or thesis text here.  You might use MS Word for your manuscript or you could use a plain text format such as markdown, org mode, LaTeX.
 
 ### `results` ###
 
-This directory is only for files that are created automatically by code. Nothing in this directory is in version control. TO ensure that a fresh clone of the git repo will include this directory although it is empty, place a `.gitignore` file in it with the following two lines:
+This directory is only for files that are created automatically by code. Nothing in this directory is in version control. But git will not add empty directories to a repository. Therefore, to ensure that a fresh clone of the git repo will include this directory although it is empty, place a `.gitignore` file in it with the following two lines:
 
 
 ```
@@ -65,12 +67,12 @@ This directory is only for files that are created automatically by code. Nothing
 !.gitignore
 ```
 
-This tells git to ignore all files in this directory except for the .gitignore file itself
+This tells git to ignore all files in this directory except for the .gitignore file itself. A fresh clone of the repository will include the results directory and the .gitignore file.
 
 
 ### `scripts` ###
 
-Keep your anlayses code here (usually this will be R scripts)
+Keep your anlayses code here (usually this will be R scripts). I usually write scripts so that they assume the working directory is the scripts directory.  Then all reference to data uses relative paths (eg `../data/trees.csv`) and output figures are saved to the results folder (eg `../results/fig1.pdf`).  Alternatively, as long as it is documented, you can write your R code so that scripts assume the working directory is the root directory.  IN that case, any references to other scripts will look something like `source("scripts/read_data.R")`.
 
 
 # Storing and documenting data #
@@ -150,7 +152,7 @@ Then we should have a file "trees-metadata.csv":
 
 # Code #
 
-The main tools we use for data analysis are [R][R] and [Python][Python]. We also use shell scripts ([Bash][bash]) to glue various other pieces of code and existing software together. I try to help my students to learn R.
+The main tools we use for data analysis are [R][R] and [Python][Python]. We also use shell scripts ([Bash][bash]) to glue various other pieces of code and existing software together. I help my students to learn R and I teach a course in R programming, so this is the most common language we use.
 
 ## R and working directory ##
 
