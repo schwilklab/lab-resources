@@ -48,4 +48,4 @@ Funding for Graduate students
 - [Sigma Xi](https://www.sigmaxi.org/programs/grants-in-aid)
 - [Society of Herbarium Curators] (http://www.herbariumcurators.org/awards/)
 - [Native Plant Society of Texas. Ann Miller Gonzalez Graduate Research Grants. $2000](http://npsot.org/wp/education/research-grants/)
-- [Lewis and Clark Fund for Exploration and Field Research. Up to $5000] (https://www.amphilsoc.org/grants/lewis-and-clark-fund-exploration-and-field-research)
+- [Lewis and Clark Fund for Exploration and Field Research. Up to $5000](https://www.amphilsoc.org/grants/lewis-and-clark-fund-exploratisn-and-fisld-research)
