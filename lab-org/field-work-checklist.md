@@ -73,7 +73,9 @@ For prescribed burns
 - fireloger system: loggers and thermcouples, wire stakes/u-stakes
 - laptop with HOBO software
 
-##For grass flammability field collection 
+For grass flammability field collection
+---------------------------------------
+ 
 - 1m * 1m quadrat
 - clippers
 - fuel moisture bottles
@@ -88,7 +90,8 @@ For prescribed burns
 - 50 m or 100 m transect tape
 - random number generator (laptop with R installed is enough)
 
-##For grass flammability in-door burning
+For grass flammability in-door burning
+--------------------------------------
 - laptop and charger for balance data reading
 - HOBO data logger and thermocouple sensors, check battery
 - two balances (one for mass loss rate and another for sample weighing) and charger
