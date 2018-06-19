@@ -72,6 +72,41 @@ For prescribed burns
 --------------------
 - fireloger system: loggers and thermcouples, wire stakes/u-stakes
 - laptop with HOBO software
+
+##For grass flammability field collection 
+- 1m * 1m quadrat
+- clippers
+- fuel moisture bottles
+- ziplock for leaves 
+- large plastic bag and storage box for plants
+- markers and tape
+- shovel 
+- community sampling datasheets and clipboards
+- DBH tape and tree tags when monitoring tree status is included
+- GPS and battery
+- Li-cor line light meter
+- 50 m or 100 m transect tape
+- random number generator (laptop with R installed is enough)
+
+##For grass flammability in-door burning
+- laptop and charger for balance data reading
+- HOBO data logger and thermocouple sensors, check battery
+- two balances (one for mass loss rate and another for sample weighing) and charger
+- extension cord
+- tripod and lamp 
+- lighter, tong, cotton balls and 50% ethanol solution for ignition 
+- cooler with ice for subsample storage
+- brush and metal box for fuel residuals collection
+- foil for pot protection
+- aluminum sheet to put between balance and plant to catch fell biomass during combustion
+- cardboard topped with metal sheet work as base and buffer to support balance as well as minimize effect of ground disturbance (observer walking etc.) on balance reading
+- bandana
+- 2 m metal rule for flame height reading
+- timer for all kinds of time duration recording
+- HOBO data logger cord for data download
+- data sheet and pencil
+- trash bags to clean and collect any trash after experiments, make sure nothing is still smoldering before trash them 
+
   
 Camping and safety gear
 -----------------------
