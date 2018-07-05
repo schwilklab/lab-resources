@@ -106,7 +106,8 @@ For grass flammability in-door burning
 - bandana
 - 2 m metal rule for flame height reading
 - timer for all kinds of time duration recording
-- HOBO data logger cord for data download
+- Kestrel pocket weather meter (calibration need)
+- HOBO data logger cord
 - data sheet and pencil
 - trash bags to clean and collect any trash after experiments, make sure nothing is still smoldering before trash them 
 
