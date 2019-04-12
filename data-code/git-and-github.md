@@ -1,28 +1,28 @@
 Guide to git and GitHub in the Schwilk lab
 ==========================================
 
-In the Schwilk lab, we use [git][git] for version control of data and code. Use a shared repository workflow with central repsoitories hosted on [GitHub][github]. We usually setup shared repositories under our [GitHub schwilkab organization account][schwilklab]. Be default, everyone in the lab can read and write to the schwilklab repositories.
+In the Schwilk lab, we use [git][git] for version control of data and code with central repositories hosted on [GitHub][github] under the  [schwilkab organization account][schwilklab]. 
 
-Students can also have individual github accounts and set up their repositories under those. In that case, the owner sets the rest of the lab as collaborators on github.
+Students can also have individual github accounts and set up their repositories under those. In that case, the owner can add the rest of the lab as collaborators on github and designate read or read/write access.
 
 ## Using git branches for lab collaboration ##
 
-We use a shared repository workflow. Although that means everyone has the ability to push to the master branch, they generally should not but, instead, should work in what we call a "private branch" or a "feature branch". These our our development branches. Anyone can still push to them, but if you name a branch so that the branch name begins with your name or GitHub ID, then that tells us that is a "private" branch.  We can look at it, pull from it, but only the branch creator is allowed to push to it (this means that the branch "owner" is free to rebase, squash commits and otherwise rewrite commit history and then do a force push.
+We use a shared repository workflow. Although that means everyone has the ability to push to the master branch, in general, only the owner/originator of that repository should push directly to master.  Others should instead work in what we call a "private branch" or a "feature branch". Anyone can still push to these branches, but if the creator of the branch names it so that the branch name begins with their name or GitHub ID, then that tells us that is a "private" branch.  The rest of us can read it, clone it, and  pull from it, but only the branch creator is allowed to push to it. This means that the branch "owner" is free to rebase, squash commits, and otherwise rewrite commit history and then do a force push.
 
 
-Some outside referneces on this style of workflow:
+Here are some outside references on this style of workflow:
 
 - https://guides.github.com/introduction/flow/
 - https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
-Below is a quick reference guide for basic steps involved in this "private branch" workflow. I'll use the [skyisland-climate repository][skyisland-climate] as an example with an example private branch, schwilk-testbranch.
+Below is a quick reference guide for basic steps involved in our "private branch" workflow. I'll use the [skyisland-climate repository][skyisland-climate] as an example with an example private branch, schwilk-testbranch.
 
 ### Set up local copy of the repo ###
 
 ```bash
 
 # get local clone of repository (I use ssh, you may use https)
- git clone git@github.com:schwilklab/skyisland-climate.git
+git clone git@github.com:schwilklab/skyisland-climate.git
 
 # move to "root" folder of repo
 cd  skyisland-climate
@@ -49,7 +49,9 @@ git checkout -b schwilk-testbranch
 git checkout schwilk-testbranch
 ```
 
-NOTE: the detached head state happens when you are in a local branch such as master, and check out a DIFFERENT BRANCH from a remote. So you are in local master and checkout origin rfmodels.  You know need to make a branch called rfmodels (or something else) and set up tracking.  In that case, what was probably needed was a merge, not  a checkout.
+#### What is a detached head state? ####
+
+NOTE: the detached head state happens when you are in a local branch such as master, and check out a *different branch* from a remote. For example, you are in local/master and checkout origin/newbranch. You now need to make a branch called newbranch (or something else) and set up tracking with origin/newbranch.
 
 ### Typical private branch workflow ###
 
@@ -76,7 +78,7 @@ git rebase master
 
 #### Committing your new code ####
 
-Note: making nice commit messages is easier with a default editor named in your global gitconfig, or through rstudio, emacs, or other interface.  Also, interactively selecting hunks to commit can be very useful if you've made a bunch of changes and want to commit them as separate commits.  This happens a lot: I update some data in one file, then write some related code editing two files, then fix an unrelated typo in a fourth file.  These really should be three separate commits. 
+Writing nicely formatted commit messages is easier with a default editor named in your global gitconfig, or through rstudio, emacs, or other interface. 
 
 I'll show how to do this using the command line, but these really common commands are worth accessing through a keyboard shortcut interface, editor, etc.
 
@@ -107,6 +109,12 @@ git commit # will open up an editor
 # to just give a one liner commit message (not good form!):
 # git commit -m"Commit message"
 ```
+##### Interactively commit only portions of a changed file #####
+
+Consider also that interactively selecting hunks to commit can be very useful if you've made a bunch of changes and want to commit them as separate commits. This happens a lot: I update some data in one file, then write some related code editing two files, then fix an unrelated typo in a fourth file.  These really should be three separate commits. THese are easy to commit separately if every change is in a separate file but if you want to make two commits out of changes to one file, then you need to be able to commit individual "hunks". 
+
+see `git commit --interactive` and `git commit --patch` (which is shortcut to patch option in interactive commit).
+
 
 ##### Some notes on commit messages: #####
 
@@ -116,9 +124,11 @@ Commit messages have two parts: a first line (50 chars or less), and a body (wra
 
 If the commit fixes a github issue include something like "fixes #8" in the commit
 
-#### Pushing commits to github so others can see them ####
+#### Pushing commits to the central repository so others can see them ####
 
-Push with some frequency.  You don't need to push as often as you commit, but if you are working in a private branch, there is little cost: we can always fix things if you push something messy or even rewrite commit messages, squash commits etc.  Our rule in the lab is if a branch begins with your name or github username, then no one else should push to it.  they can merge from it into there branches, but should not push to yours.
+Our central repository is usually hosted at github
+
+Push with some frequency.  You don't need to push as often as you commit, but if you are working in a private branch, there is little cost: we can always fix things if you push something messy or even rewrite commit messages, squash commits etc.  Our rule in the lab is if a branch begins with your name or github username, then no one else should push to it. Others can merge from it into their own branches, but should not push to yours.
 
 ``` bash
 
@@ -139,7 +149,7 @@ git push --set-upstream origin schwilk-testbranch
 
 We can merge our schwilk-testbranch branch in in one of two ways: 
 1. through the GitHub interface (merge happens on github server copy of repo) or
-2. By switching to master, and doing a simple `merge schwilk-testbranch`, and then pushing the result.
+2. By switching to master, and doing `merge schwilk-testbranch`, and then pushing the result.
 
 Regardless of how we actually do the merge, since we use github, go ahead and open up a pull request first through the github interface. See https://help.github.com/articles/using-pull-requests/ The "base branch" would be master and the "head branch" would be schwilk-testbranch.
 
