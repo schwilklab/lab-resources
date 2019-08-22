@@ -26,7 +26,7 @@ Experimental methods and protocols. See individual files
 
 ## plant-id ##
 
-Resources for plant identification. Currently, we have only a [guide to major angiosperm families](plant-id/common-angiosperm-familes.md) here. We'd like to add a key to plants of Lubbock County and that will be an ongoing project aided by collections students make in BIOL-3306.
+Resources for plant identification. Currently, we have only a [guide to major angiosperm families](plant-id/common-angiosperm-families.md) here. We'd like to add a key to plants of Lubbock County and that will be an ongoing project aided by collections students make in BIOL-3306.
 
 ## safety ##
 
