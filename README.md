@@ -1,7 +1,19 @@
 Schwilk Lab Resources
 =====================
 
-Repository for lab resources for lab and field work, data management and analyses, and field methods and lab protocols.
+Repository for lab resources for lab and field work, data management and analyses, and field methods and lab protocols.  [The Schwilk Lab at Texas Tech](https://www.schwilk.org)
+
+Schwilk lab code
+----------------
+
+Code for various projects is stored in individual git repositories. A few that
+might be of most interest for re-use are
+
+- [chiller](https://github.com/schwilklab/chiller): Code to run a temperature profile program on the Thermo-Fisher refrigerated bath.
+- [serial-balance](https://github.com/schwilklab/serial-balance): Communicate with an analytical balance.
+- [pandoc-build-system](https://github.com/schwilklab/pandoc-build-system)
+- [skyisland-climate](https://github.com/schwilklab/skyisland-climate): Example of a fairly well documented and organized repository for a large project.
+- [emacs-starter](https://github.com/schwilklab/emacs-starter): Fairly lightweight emacs starter package (.emacs.d config files) for my students so you setup will be not too different from mine.
 
 File organization
 -----------------
@@ -26,11 +38,10 @@ Experimental methods and protocols. See individual files
 
 ## plant-id ##
 
-Resources for plant identification. Currently, we have only a [guide to major angiosperm families](plant-id/common-angiosperm-families.md) here. We'd like to add a key to plants of Lubbock County and that will be an ongoing project aided by collections students make in BIOL-3306.
+We'd like to add a key to plants of Lubbock County and that will be an ongoing project aided by collections students make in BIOL-3306.
 
 - [Schwilk Lab Guide to Major Angiosperm Families](plant-id/common-angiosperm-families.md)
-- [NY Botanical Garden Glossary of Botanical Terms](http://sweetgum.nybg.org/science/glossary/)
-- [Glossary of botanical terms used in the OpenKey project](https://www.ibiblio.org/openkey/intkey/web/glossary.pdf)
+- [External plant identification resources](plant-id/external-resources.md)
 
 ## safety ##
 
