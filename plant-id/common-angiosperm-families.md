@@ -3,12 +3,14 @@ title: Important North American Angiosperm plant families: grouped artificially 
 author: Dylan Schwilk
 ---
 
-# Overview
+# Important North American Angiosperm plant families: grouped artificially for rapid identification
+
+## Overview
 
 This is just a starting point. There are exceptions to the characteristics mentioned here and there are of course many more plant families.
 
 
-# Monocot families
+## Monocot families
 
 | **Conspicuous perianth**                             |                           | **Inconspicuous perianth** |                                              |
 |------------------------------------------------------|---------------------------|----------------------------|----------------------------------------------|
@@ -18,11 +20,11 @@ This is just a starting point. There are exceptions to the characteristics menti
 | **Asparagaceae**: *Agave, Nolina, Yucca, Hesperaloe* | stiff rosette basal lvs   |                            |                                              |
 
 
-# Dicot families
+## Dicot families
 
 **flower parts format** (calyx, corolla, androecium)
 
-## Petals separate & ovary superior
+### Petals separate & ovary superior
 
 -   **Rununculaceae**  (3-x;0-x; inf.) dissected leaves; *Delphinum*, *Aquilegia*
 -   **Papaveraceae**   (2-3;4-12;inf.) sepals caducous, petals wrinkled
@@ -36,7 +38,7 @@ This is just a starting point. There are exceptions to the characteristics menti
     - Mimusoidaeae (5;5;inf.) stamens obvious. **Prosopis**, **Acacia**
 
 
-## Petals unitied, ovary superior and flowers regular (actinomorphic)
+### Petals unitied, ovary superior and flowers regular (actinomorphic)
 
 - **Ericaceae** (4-5;5;5 or 10) stamens not adnate to corolla
 - **Convolvulaceae** (5;5;5 corolla convulate or twisted
@@ -46,7 +48,7 @@ This is just a starting point. There are exceptions to the characteristics menti
 - **Solanaceae** (5;5;5) tubular or rotate corolla, stigma capitate
 
 
-## Petals united, ovary superior & flowers irregular (zygomorphic)
+### Petals united, ovary superior & flowers irregular (zygomorphic)
 
 - **Lamiaceae** (5;5;2-4) opposite lvs, square stem, aromatic, 4-nut, mostly herbaceous.
 - **Verbenaceae** (5;5;2-4) opposite lvs, square stem, flwrs weakly irregular. *Aloysia*, *Lantana*.
@@ -56,7 +58,7 @@ This is just a starting point. There are exceptions to the characteristics menti
 - **Bignoniaceae** (5,5,4 in 2 lengths) opposite often compound lvs. Tropical and subtropical trees, vines, and shrubs.
 
 
-## Inferior ovary
+### Inferior ovary
 
 - **Onagraceae** (4;4; 8 or 4). Petals separate.
 - **Cucurbitaceae** (5;5; 5 sometimes fused to 1-3) Unisexual (imperfect) flowers.  Petals united.
@@ -66,14 +68,14 @@ This is just a starting point. There are exceptions to the characteristics menti
 - **Cornaceae** (4-5;4-5;4-5 or 10) Leaf threads hold parts together when torn, small flwrs.
 
 
-## No corolla, usually small flowers
+### No corolla, usually small flowers
 
 - **Polygonaceae** 3-merous flowers (**Polygonum** with 5-merous), involucre, ochre
 - **Nyctaginaceae** involucre, corolla-like calyx, opposite lvs, swollen nodes
 - **Chenopodiaceae** Scurfy, saline environments
 
 
-## Milky juice
+### Milky juice
 
 - **Euphorbiaceae** unisexual flowers or cyathium (some not milky)
 - **Asclepidaceae** corona, opposite lvs
@@ -82,13 +84,13 @@ This is just a starting point. There are exceptions to the characteristics menti
 - **Moraceae** Maclura pomifera (Osage orange), Mulberry
 
 
-## Characteristic inflorescence
+### Characteristic inflorescence
 
 - **Apiaceae**: Inflorescence an umbell.
 - **Asteraceae**: Head of flowers.
 
 
-## Succulents
+### Succulents
 
 - **Cactaceae** () Many petals and stamens, inferior ovary, spines
 - **Aizoaceae** many petals or if none then many showy stamens
@@ -96,13 +98,13 @@ This is just a starting point. There are exceptions to the characteristics menti
 - **Portulaceae** (2,4-6;4-inf) Often only slightly succulent
 
 
-## Evergreen shrubs, alternate leaves
+### Evergreen shrubs, alternate leaves
 
 - **Anacardiaceae** (5;5;10) staminal disk, often aromatic
 - **Rhamnaceae** (5;5;5) Hypanthium
 
 
-## Trees with catkins of unisexual flowers
+### Trees with catkins of unisexual flowers
 
 - **Fagaceae**: monoecious, acorns + similar fruits, both evergreen and
   deciduous species
@@ -111,7 +113,7 @@ This is just a starting point. There are exceptions to the characteristics menti
   and glandular-dotted beneath
 
 
-## Some other woody plant families
+### Some other woody plant families
 
 - **Betulaceae**: Monoecious, deciduous, Lvs simple and serrate
 - **Ulmaceae**: Most species monoecious (some with perfect flws).  Flowers
