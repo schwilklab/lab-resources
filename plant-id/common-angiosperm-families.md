@@ -1,5 +1,7 @@
-Title: Important North American Angiosperm plant families: grouped artificially for rapid identification
-Author: Dylan Schwilk
+---
+title: Important North American Angiosperm plant families: grouped artificially for rapid identification
+author: Dylan Schwilk
+---
 
 # Overview
 
