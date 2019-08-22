@@ -28,6 +28,10 @@ Experimental methods and protocols. See individual files
 
 Resources for plant identification. Currently, we have only a [guide to major angiosperm families](plant-id/common-angiosperm-families.md) here. We'd like to add a key to plants of Lubbock County and that will be an ongoing project aided by collections students make in BIOL-3306.
 
+- [Schwilk Lab Guide to Major Angiosperm Families](plant-id/common-angiosperm-families.md)
+- [NY Botanical Garden Glossary of Botanical Terms](http://sweetgum.nybg.org/science/glossary/)
+- [Glossary of botanical terms used in the OpenKey project](https://www.ibiblio.org/openkey/intkey/web/glossary.pdf)
+
 ## safety ##
 
 Lab safety plan and safety protocols
