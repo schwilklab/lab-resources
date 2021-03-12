@@ -6,7 +6,7 @@ Repository for lab resources for lab and field work, data management and analyse
 Schwilk lab code
 ----------------
 
-Code for various projects is stored in individual git repositories. A few that
+Code for various projects is stored in separate individual git repositories. A few that
 might be of most interest for re-use are
 
 - [chiller](https://github.com/schwilklab/chiller): Code to run a temperature profile program on the Thermo-Fisher refrigerated bath.
@@ -15,8 +15,31 @@ might be of most interest for re-use are
 - [skyisland-climate](https://github.com/schwilklab/skyisland-climate): Example of a fairly well documented and organized repository for a large project.
 - [emacs-starter](https://github.com/schwilklab/emacs-starter): Fairly lightweight emacs starter package (.emacs.d config files) for my students so you setup will be not too different from mine.
 
-File organization
------------------
+File organization in this repo
+------------------------------
+
+### data-code ###
+
+Information on lab data management, code and version control
+
+- [Git and GitHub](data-code/git-and-github.md): Our lab guide to using git and GitHub for collaboration.
+- [data-management](data-code/data-management.md): Our current lab best practices for managing lab data, setting up a project, organizing code and keeping the whole thing in version control
+
+
+### equipment ###
+
+Equipment lists and maintenance histories
+
+[TODO] - add history of balance repairs and calibration
+
+[TODO] - Organize equipment list that has been started; organize into categories such as field equipment, plant phys, etc; correct names and give manufacturer; correct location information in more detail.
+
+### html ###
+
+Holds script to build html version of these local markdown files.
+
+[TODO] - remove or rename this?  Is this necessary?
+
 
 ### lab-org ###
 
@@ -27,29 +50,27 @@ This folder folder for information on lab business, scholarships and funding, da
 - [funding-opportunities](lab-org/funding_opportunities.md): List of graduate fellowships and scholarships
 - [lab-business](lab-org/lab-business.md): For information on mailing packages, departmental contacts, orderings supplies
 
-### data management, code and version control
 
-- [Git and GitHub](data-code/git-and-github.md): Our lab guide to using git and GitHub for collaboration.
-- [data-management](data-code/data-management.md): Our current lab best practices for managing lab data, setting up a project, organizing code and keeping the whole thing in version control.
+### methods ###
 
-## methods ##
+Experimental methods and protocols. See individual files. Includes folder for plant identificaiton tools:
 
-Experimental methods and protocols. See individual files
 
-## plant-id ##
+#### plant-id ####
 
 We'd like to add a key to plants of Lubbock County and that will be an ongoing project aided by collections students make in BIOL-3306.
 
 - [Schwilk Lab Guide to Major Angiosperm Families](plant-id/common-angiosperm-families.md)
 - [External plant identification resources](plant-id/external-resources.md)
 
-## safety ##
+### safety ###
 
 Lab safety plan and safety protocols
 
 - [schwilk-lab-safety-plan](safety/schwilk-lab-safety-plan.md): Our EHS required safety plan. Individual safety protocols covered separately
 - [chainsaw-safety-protocol](safety/chainsaw-safety-protocol.md): Chainsaw safety.
 - [bleach-safety-protocol](safety/bleach-safety-protocol.md): Our most dangerous lab chemical.
+
 
 Instructions for editing these protocols
 ----------------------------------------
