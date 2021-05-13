@@ -11,11 +11,70 @@ For all trips
 - lab field laptop if needed
 - field notebooks --- rite-n-rain
 - plastic bags, ziplocks seed collecting bags
+- masking tape/duct tape
 - calipers
 - meter tapes
 - clipboards and data sheets
 - Field guides and floras (Correll and Johnson, Muller oak paper, Powell, etc)
-- plant press if collecting
+
+Camping and safety gear
+-----------------------
+
+- food
+- large water containers fill with RO water in lab
+- coolers - ice
+- snake chaps (optional)
+- stove and propane fuel, matches
+- tents
+- tarps
+- kitchen box
+- lanterns, mantles, propane
+- first aid kit
+- group food (make list)
+- lab backpacks
+
+Personal gear for camping trips
+-------------------------------
+ 
+- sleeping bag (or other bedding), pad, (and pillow, optional)
+- sturdy daypack --- extras in lab)
+- water containers/canteens (3 liters per person). You will drink at least 3L per day on the trail in hot weather. 2L is sufficeint for trips were most work is very near vehcile.
+- headlamp and batteries (or flashlight, but headlamps are more useful)
+- sturdy long pants such as Carharts.
+- warm clothes, warm hat, gloves (winter/spring)
+- T-shirts and lightweight long sleeve shirts for hot weather
+- towel
+- boots
+- sun hat -- important!
+- Toiletries, wipes, etc.
+- sunscreen -- important!
+- insect repellent
+- personal food/snacks
+- notebook and pen
+
+For pressed plant collections
+-----------------------------
+- plant presses. Estimate how many you need!
+- cardboard ventilators and blotters
+- newspaper folds. Cut to correct size and orientation before trip. Need one fold per specimen.
+- garbage bags
+- masking tap + grease pen or sharpies for field collecting
+
+For soil/seedbank collection
+----------------------------
+- paper bags (for dry soil/seedbank)
+- ziplocks (for soil moisture studies)
+- duct tape and masking tape to seal bags
+- a large bin with lid for storing delicate paper bags safely. Plan storage!
+
+For canopy flammability collections
+-----------------------------------
+
+- Jumbo ziplocks for 70cm branches
+- extra large garbage bags
+- GIANT coolers. MANY. With ice.
+- Clippers, saw
+- small ziplocks for leaf samples
 
 
 For climate sensors and soil moisture
@@ -112,42 +171,8 @@ For grass flammability in-door burning
 - trash bags to clean and collect any trash after experiments, make sure nothing is still smoldering before trash them 
 
   
-Camping and safety gear
------------------------
-
-- food
-- large water containers fill with RO water
-- coolers - ice
-- snake chaps (optional)
-- stove and propane fuel, matches
-- tents
-- tarps
-- kitchen box
-- lanterns, mantles, propane
-- first aid kit
-- group food (make list)
-- lab backpacks
-
-Personal gear
--------------
-
-### Camping trips ###
- 
-- sleeping bag, pad and (pillow)
-- sturdy backpack (daypack --- extras in lab)
-- water containers/canteens (3 liters per person).  You will drink at least 3L per day on the trail
-- headlamp (or flashlight, but headlamps are more useful)
-- sturdy long pants such as Carharts.
-- warm clothes, warm hat, gloves (winter/spring)
-- towel
-- boots
-- sun hat -- important!
-- sunscreen -- important!
-- insect repellent
-- personal food/snacks
-- notebook and pen
-
-### On fires ###
+Personal geer on fires
+--------
 
 - bandana (for fires)
 - fire resistant pants (cotton, not synthetic)
