@@ -28,7 +28,7 @@ Camping and safety gear
 - lantern, fuel matches. Check mantles. extra mantles.
 - tents and groundsheets.
 - tarps
-- kitchen box with plates, cups, bowls, flatwear, coffee maker, soap, spnge, etc.
+- kitchen box with plates, cups, bowls, flatwear, coffee maker, soap, sponge, etc.
 - first aid kit
 - lab backpacks if necessary.
 - Power inverter / battery / solar panels
