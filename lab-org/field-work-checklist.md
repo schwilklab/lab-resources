@@ -6,7 +6,7 @@ For all trips
 
 - pens and sharpies
 - GPSs - check batteries and load waypoints
-- extra batteries (AA for GPS and decagon, AAA for some headlamps).
+- extra batteries (AA for GPS and decagon and some headlamps, AAA for some headlamps. CHECK).
 - VHF radios and chargers
 - lab field laptop if needed
 - field notebooks --- rite-n-rain
@@ -15,23 +15,23 @@ For all trips
 - calipers
 - meter tapes
 - clipboards and data sheets
-- Field guides and floras (Correll and Johnson, Muller oak paper, Powell, etc)
+- Field guides and floras (Correll and Johnson, Muller oak paper, Powell, etc). Keep these in safe box, well packed. These books are valuable and delicate. 
 
 Camping and safety gear
 -----------------------
 
-- food
-- large water containers fill with RO water in lab
-- coolers - ice
+- Group food. Dry food in box, cold food in cooler with ice
+- large water containers fill with RO water in lab. 5 gal per day minimum.
+- Other coolers with ice ice
 - snake chaps (optional)
 - stove and propane fuel, matches
-- tents
+- lantern, fuel matches. Check mantles. extra mantles.
+- tents and groundsheets.
 - tarps
-- kitchen box
-- lanterns, mantles, propane
+- kitchen box with plates, cups, bowls, flatwear, coffee maker, soap, spnge, etc.
 - first aid kit
-- group food (make list)
-- lab backpacks
+- lab backpacks if necessary.
+- Power inverter / battery / solar panels
 
 Personal gear for camping trips
 -------------------------------
