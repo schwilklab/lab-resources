@@ -53,7 +53,7 @@ This folder folder for information on lab business, scholarships and funding, da
 
 ### methods ###
 
-Experimental methods and protocols. See individual files. Includes folder for plant identificaiton tools:
+Experimental methods and protocols. See individual files. Includes folder for plant identification tools:
 
 
 #### plant-id ####
@@ -69,11 +69,10 @@ Lab safety plan and safety protocols
 
 - [schwilk-lab-safety-plan](safety/schwilk-lab-safety-plan.md): Our EHS required safety plan. Individual safety protocols covered separately
 - [chainsaw-safety-protocol](safety/chainsaw-safety-protocol.md): Chainsaw safety.
-- [bleach-safety-protocol](safety/bleach-safety-protocol.md): Our most dangerous lab chemical.
+- [bleach-safety-protocol](safety/bleach-safety-protocol.md): Bleach safety.
 
-
-Instructions for editing these protocols
-----------------------------------------
+Instructions for editing
+------------------------
 
 These files are all stored in markdown format (https://daringfireball.net/projects/markdown/ , see also https://help.github.com/articles/github-flavored-markdown)
 
