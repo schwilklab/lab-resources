@@ -55,7 +55,7 @@ Store data and file specific metadata here. Use comma-separated-values (csv) fil
 
 ### `ms` ###
 
-Keep your manuscript or thesis text here.  You might use MS Word for your manuscript or you could use a plain text format such as markdown, org mode, LaTeX.
+Keep your manuscript or thesis text here. You might use MS Word for your manuscript or you could use a plain text format such as markdown, org mode, LaTeX.
 
 ### `results` ###
 
@@ -72,7 +72,7 @@ This tells git to ignore all files in this directory except for the .gitignore f
 
 ### `scripts` ###
 
-Keep your anlayses code here (usually this will be R scripts). I usually write scripts so that they assume the working directory is the scripts directory.  Then all reference to data uses relative paths (eg `../data/trees.csv`) and output figures are saved to the results folder (eg `../results/fig1.pdf`).  Alternatively, as long as it is documented, you can write your R code so that scripts assume the working directory is the root directory.  IN that case, any references to other scripts will look something like `source("scripts/read_data.R")`.
+Keep your anlayses code here (usually this will be R scripts). I think current best practice is to write scripts so that they assume the working directory is the root of the repository. In that case, any references to data files will have paths something like `./data/species.csv`. This is consistent with how RStudio and Emacs both behave be default: barring any other settings, they assume that the working directory for a new process should be the "project" root and git repos indicate projects. Then all reference to other files use relative paths. For example, output figures are saved to the results folder (eg `./results/fig1.pdf`). This means to call command-line scripts one must do so from the root folder.  Alternatively, as long as it is documented, you can write your R code so that scripts assume the working directory `/scripts` folder. See [R and the working directory](#R-and-the-working-directory), below.
 
 
 # Storing and documenting data #
@@ -83,7 +83,7 @@ Plain text, such as [comma separated values format (csv)][csv], is simple and po
 
 ### Some things to watch out for with csv files ###
 
-- Name your columns with valid R names. Avoid spaces!  In other words, "mass (g)" is a bad column header, but "mass_g" is fine.
+- Name your columns with valid R names. Avoid spaces! In other words, "mass (g)" is a bad column header, but "mass_g" is fine.
 - Be careful of any automatic conversion of strings to underlying date/time representation that your spreadsheet program may do without asking you. This could result in loss of information and changing formats upon resaving as plain text.
 - Watch character encoding (always use utf-8)
 - If you use Microsoft Excel on Mac, be careful of a microsoft bug in which excel will always save csv files using windows style line endings
@@ -92,15 +92,14 @@ Plain text, such as [comma separated values format (csv)][csv], is simple and po
 
 ## Quality assurance ##
 
-Direct digital data entry is the best for quality assurance, because checks can be built in.  For example, if one is entering tree DBH directly on a tablet computer in the field, it is possible to have the data entry system prohibit negative numbers, numbers over some maximum diameter, etc. That said, we most commonly take data in field notebooks and enter them onto the computer that night or a few days later. It is very important that data entry happens soon after data collection, because real quality assurance can't occur until the data are in digital form.
+Direct digital data entry is the best for quality assurance, because checks can be built in. For example, if one is entering tree DBH directly on a tablet computer in the field, it is possible to have the data entry system prohibit negative numbers, numbers over some maximum diameter, etc. That said, we most commonly take data in field notebooks and enter them onto the computer that night or a few days later. It is very important that data entry happens soon after data collection, because real quality assurance can't occur until the data are in digital form.
 
-In the Schwilk lab, quality assurance takes the form of R scripts that conduct sanity checks:  sample size matches the study plan, no unexpected, missing data, no impossible numbers (eg negative leaf length), no extreme (impossible) outliers.
+In the Schwilk lab, quality assurance takes the form of R scripts that conduct sanity checks: sample size matches the study plan, no unexpected, missing data, no impossible numbers (eg negative leaf length), no extreme (impossible) outliers.
 
 
 ## Metadata ##
 
-Metadata means simply data about data. Our data files (such as a table stored as a [csv file][csv]) do not contain enough information alone for a user to reproduce the work or understand the results. We therefore require additional information stored alongside our data.
-Documenting data (= metadata) occurs at at least two levels.
+Metadata means simply data about data. Our data files (such as a table stored as a [csv file][csv]) do not contain enough information alone for a user to reproduce the work or understand the results. We therefore require additional information stored alongside our data. Documenting data (= metadata) occurs at at least two levels.
 
 ### At the project level ###
 
@@ -154,9 +153,10 @@ Then we should have a file "trees-metadata.csv":
 
 The main tools we use for data analysis are [R][R] and [Python][Python]. We also use shell scripts ([Bash][bash]) to glue various other pieces of code and existing software together. I help my students to learn R and I teach a course in R programming, so this is the most common language we use.
 
-## R and working directory ##
+## R and the working directory ##
 
-It is best to avoid any explicit calls to set the working directory in your R code (avoid `setwd()`). Therefore, you must standardize on an assumed working directory.  In our projects, the scripts are all placed in a `scripts` directory and the code in these scripts assumes that this is the  working directory.  IN other words, to refer to a data file in the data directory, use relative paths: `"../data/some-data-file.csv"`.  This way, scripts will run from the command line in the directory and one can enforce this locally in your editing environment: eg use a project file (.Rproj for RStudio users). Please don't put the local machine and user specific project fiules into version control (see Version Control, below).
+It is best to avoid any explicit calls to set the working directory in your R code (avoid `setwd()`). Therefore, you must standardize on an assumed working directory. In our projects, the scripts are all placed in a `scripts` directory and the code in these scripts either assumes that this is the working directory or that the repository root is the working directory. Newer projects use the latter convention. In other words, to refer to a data file in the data directory, use relative paths: `"./data/some-data-file.csv"`. The ways of ensuring that your editor/IDE set the startup working directory vary by system (eg `.Rproj` files for RStudio). These system-specific files should NOT be tracked by git and are specific to each user. The `.gitignore` should list those file types.
+
 
 ## Some suggestions for code organization ##
 
@@ -177,7 +177,7 @@ We use [git][git] for version control in the lab. For an outline of our git and 
 
 # Backups #
 
-The linux machines in the lab are backed up daily using rsnapshot.
+The main linux machines in the lab are backed up daily using our rsnapshot scripts.
 
 # Data management plans required for research proposals #
 
