@@ -1,5 +1,5 @@
 ---
-title: Important North American Angiosperm plant families: grouped artificially for rapid identification
+title: Important North American Angiosperm plant families
 author: Dylan Schwilk
 ---
 
@@ -7,8 +7,7 @@ author: Dylan Schwilk
 
 ## Overview
 
-This is just a starting point. There are exceptions to the characteristics mentioned here and there are of course many more plant families.
-
+This is quick guide to some of the most common plant families in our region. There are exceptions to the characteristics mentioned here and there are of course many more plant families.
 
 ## Monocot families
 
