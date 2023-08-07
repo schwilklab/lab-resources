@@ -11,12 +11,12 @@ This is quick guide to some of the most common plant families in our region. The
 
 ## Monocot families
 
-| **Conspicuous perianth**                             |                           | **Inconspicuous perianth** |                                              |
-|------------------------------------------------------|---------------------------|----------------------------|----------------------------------------------|
-| **Amaryllidaceae**                                   | scapose umbel             | **Juncanceae**             | terete  stems                                |
-| **Iridaceae**                                        | 3 stamens, inferior ovary | **Cyperaceae**             | 3-rank lvs, edges, or inflorescence terminal |
-| **Liliaceae**                                        | Raceme,  panicle          | **Poaceae**                | 2-rank flwrs                                 |
-| **Asparagaceae**: *Agave, Nolina, Yucca, Hesperaloe* | stiff rosette basal lvs   |                            |                                              |
+| **Conspicuous perianth**                             |                           | **Inconspicuous perianth** |                                                      |
+|------------------------------------------------------|---------------------------|----------------------------|------------------------------------------------------|
+| **Amaryllidaceae**                                   | scapose umbel             | **Juncanceae**             | round stems                                          |
+| **Iridaceae**                                        | 3 stamens, inferior ovary | **Cyperaceae**             | terete stems. 3-rank lvs,  or inflorescence terminal |
+| **Liliaceae**                                        | Raceme,  panicle          | **Poaceae**                | 2-rank flwrs                                         |
+| **Asparagaceae**: *Agave, Nolina, Yucca, Hesperaloe* | stiff rosette basal lvs   |                            |                                                      |
 
 
 ## Dicot families
