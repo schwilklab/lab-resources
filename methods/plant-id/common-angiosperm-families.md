@@ -34,7 +34,7 @@ This is quick guide to some of the most common plant families in our region. The
 -   **Fabaceae**
     - Papilionoideae (5;1+2+2;10) pea-like, banner outside of wings
     - Caesalpinioideae (5;5;10) not pea-like, banner inside of wings
-    - Mimusoidaeae (5;5;inf.) stamens obvious. **Prosopis**, **Acacia**
+    - Mimusoidaeae (5;5;inf.) stamens obvious. **Prosopis**, (and former *Acacia* now **Senegalia** and **Vachellia**). 
 
 
 ### Petals unitied, ovary superior and flowers regular (actinomorphic)
@@ -71,7 +71,7 @@ This is quick guide to some of the most common plant families in our region. The
 
 - **Polygonaceae** 3-merous flowers (**Polygonum** with 5-merous), involucre, ochre
 - **Nyctaginaceae** involucre, corolla-like calyx, opposite lvs, swollen nodes
-- **Chenopodiaceae** Scurfy, saline environments
+- **Amaranthaceae** (including former **Chenopodiaceae**) Scurfy; saline environments
 
 
 ### Milky juice
@@ -80,7 +80,7 @@ This is quick guide to some of the most common plant families in our region. The
 - **Asclepidaceae** corona, opposite lvs
 - **Apocynaceae** twisted corolla, opposite or whorled lvs
 - **Asteraceae** tribe Cichorieae: all ligulate flowers
-- **Moraceae** Maclura pomifera (Osage orange), Mulberry
+- **Moraceae** *Maclura* pomifera (Osage orange), Mulberry
 
 
 ### Characteristic inflorescence
@@ -91,7 +91,7 @@ This is quick guide to some of the most common plant families in our region. The
 
 ### Succulents
 
-- **Cactaceae** () Many petals and stamens, inferior ovary, spines
+- **Cactaceae** Many petals and stamens, inferior ovary, spines
 - **Aizoaceae** many petals or if none then many showy stamens
 - **Crassulaceae** (4-5;4-5;8-10) 4-5 separate carpels
 - **Portulaceae** (2,4-6;4-inf) Often only slightly succulent
