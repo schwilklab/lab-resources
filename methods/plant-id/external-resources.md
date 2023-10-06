@@ -1,7 +1,11 @@
 ---
-title: External Resources for Plant Identificationidentification
+title: Resources for Plant Identification
 author: Dylan Schwilk
 ---
+
+# Schwilk angiosperm family guide
+
+http://biol3306.schwilk.org/handouts/common-angiosperm-families.html
 
 # External Resources for Plant Identification
 - [NY Botanical Garden Glossary of Botanical Terms](http://sweetgum.nybg.org/science/glossary/)
