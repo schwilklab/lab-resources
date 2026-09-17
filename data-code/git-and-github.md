@@ -5,6 +5,10 @@ In the Schwilk lab, we use [git][git] for version control of data and code with 
 
 Students can also have individual github accounts and set up their repositories under those. In that case, the owner can add the rest of the lab as collaborators on github and designate read or read/write access.
 
+## Line endings ## 
+
+Some students use Microsoft Windows. Windows uses a historic (from typewriter days) and now non-standard two characters for line endings in text files (CRLF rather than just LF). Although most modern software will handle either case, if you open a file with LF line endings on a Microsoft Windows machine and save it, you might silently change every single line in the file. If this is a data file, that will appear to be perhaps a 1000 line change in a git commit rather than the perhaps single line of data that was inf act edited. Confusion!  Therefore, all files checked in to git should only use LF as line endings. Have git handle this for you automatically by either setting core.autocrlf or by using a `.gitattributes` file. See the `.gitattributes` file in this repository.
+
 ## Using git branches for lab collaboration ##
 
 We use a shared repository workflow. Although that means everyone has the ability to push to the master branch, in general, only the owner/originator of that repository should push directly to master.  Others should instead work in what we call a "private branch" or a "feature branch". Anyone can still push to these branches, but if the creator of the branch names it so that the branch name begins with their name or GitHub ID, then that tells us that is a "private" branch.  The rest of us can read it, clone it, and  pull from it, but only the branch creator is allowed to push to it. This means that the branch "owner" is free to rebase, squash commits, and otherwise rewrite commit history and then do a force push.
@@ -78,7 +82,7 @@ git rebase master
 
 #### Committing your new code ####
 
-Writing nicely formatted commit messages is easier with a default editor named in your global gitconfig, or through rstudio, emacs, or other interface. 
+Writing nicely formatted commit messages is easier with a default editor named in your global gitconfig, or through RStudio, emacs, or other interface. 
 
 I'll show how to do this using the command line, but these really common commands are worth accessing through a keyboard shortcut interface, editor, etc.
 
